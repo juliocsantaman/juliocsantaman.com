@@ -1,0 +1,33 @@
+h1 {
+  background-color: #212121;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.container-fluid {
+  
+  padding: 0%;
+  margin: 0%;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-pane {
+  max-width: 500px;
+  min-height: 400px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.img-home {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
