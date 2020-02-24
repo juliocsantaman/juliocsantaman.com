@@ -28,7 +28,7 @@ h1 {
 }
 
 /* The img changes dimensions when max width is 500px. */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .img-home {
     width: 200px;
     height: 200px;
