@@ -8,13 +8,17 @@ h1 {
   text-align: center;
 }
 
+/* Background-color of h1 row. */
 .bg-h1 {
   background-color: #455A64;
 }
 
+/* Background-color of nav row. */
 .bg-nav {
   background-color: #BDBDBD;
 }
+
+/* Img home. */
 
 .img-home {
   width: 200px;
@@ -22,28 +26,45 @@ h1 {
   border-radius: 5px;
   margin-top: 10px;
 }
-
+/* Background-color of tab content row. */
 .bg-tab-content {
   background-color: #CFD8DC;
   min-height: 500px;
 }
 
+/* Background-color of location column. */
 .bg-location {
   background-color: #607D8B;
   color: #FFFFFF;
 }
+
+/* Background-color of social networks column. */
 
 .bg-social-networks {
   background-color: #607D8B;
   color: #FFFFFF;
 }
 
+/* Footer. */
 footer {
   text-align: center;
   padding: 10px;
 }
 
+/* Background-color of footer column. */
 .bg-footer {
   background-color: #455A64;
   color: #FFFFFF;
+}
+
+/* Color of social network icons. */
+.social-network-icons {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 5px;
+}
+
+/* Margin of location. */
+.location {
+  margin: 5px;
 }
