@@ -3,6 +3,25 @@ body {
   font-size: 18px;
 }
 
+/* I modified the scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background-color: #757575;
+  /* background-color: #BDBDBD; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 150, 136, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 150, 136, 1);
+}
+
 h1 {
   color: #FFF;
   padding: 10px;
