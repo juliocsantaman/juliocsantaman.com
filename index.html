@@ -10,79 +10,74 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/bootstrap-4.4.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/palette.css">
   <title>Julio Santaman</title>
 </head>
 
 <body>
-  <!-- CONTAINER -->
-  <div class="container">
-    
-    <div class="row bg-h1">
-      <div class="col-12">
-        <h1>Julio Santaman</h1>
-      </div>
+  <!-- HEADER -->
+  <header class="dark-primary-color text-primary-color text-center">
+    <div class="container-fluid">
+      <h1>Julio Santaman</h1>
     </div>
-    
-    <div class="row bg-nav">
-      <div class="col col-12">
+  </header>
+  <!-- END HEADER -->
 
-        <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
-    
-          <li class="nav-item">
-            <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#home" role="tab" aria-controls="home"
-              aria-selected="true">Home</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="contact"
-              aria-selected="false">Contact</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" id="pills-about-me-tab" data-toggle="pill" href="#about-me" role="tab" aria-controls="about-me"
-              aria-selected="false">About
-              me</a>
-          </li>
-    
-        </ul>
+  <nav class="light-primary-color">
+    <div class="container-fluid">
+      <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
 
-      </div>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#home" role="tab" aria-controls="home"
+            aria-selected="true">Home</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#contact" role="tab"
+            aria-controls="contact" aria-selected="false">Contact</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" id="pills-about-me-tab" data-toggle="pill" href="#about-me" role="tab"
+            aria-controls="about-me" aria-selected="false">About
+            me</a>
+        </li>
+
+      </ul>
     </div>
-    
+  </nav>
 
+  <main>
+    <div class="container" style="min-height: 500px;">
+      <!-- Tab panes -->
+      <div class="tab-content">
 
-
-    <div class="row bg-tab-content">
-      <div class="col-12">
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-    
-          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <strong>Hello!</strong> I'm Julio Santaman. I have liked to learn about web programming so
-            I chose to do my own web site with HTML, CSS, and JavaScript. Currently I'm a student
-            at the university Tecmilenio in the career of software development engineer.
-            <br>
-            <br>
-            I really want to work as a web developer in a great company of technology. I love to learn
-            new things.
-            <img src="./assets//img/do-something-great.jpg" class="img-home mx-auto d-block" alt="Do Something Great!" title="Do Something Great!">
-          </div>
-    
-          <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <p> <strong>Email: </strong>juliocsantaman@gmail.com</p>
-            <p> <strong>Cellphone: </strong>+52 9988902399</p>
-          </div>
-    
-          <!-- <div class="tab-pane" id="about-me" role="tabpanel" aria-labelledby="about-me-tab">
-            About me.
-          </div> -->
-    
+        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <strong>Hello!</strong> I'm Julio Santaman. I have liked to learn about web programming so
+          I chose to do my own web site with HTML, CSS, and JavaScript. Currently I'm a student
+          at the university Tecmilenio in the career of software development engineer.
+          <br>
+          <br>
+          I really want to work as a web developer in a great company of technology. I love to learn
+          new things.
+          <img src="./assets//img/do-something-great.jpg" class="img-home mx-auto d-block" alt="Do Something Great!"
+            title="Do Something Great!">
         </div>
 
+        <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <p> <strong>Email: </strong>juliocsantaman@gmail.com</p>
+          <p> <strong>Cellphone: </strong>+52 9988902399</p>
+        </div>
+
+        <!-- <div class="tab-pane" id="about-me" role="tabpanel" aria-labelledby="about-me-tab">
+              About me.
+            </div> -->
+
       </div>
     </div>
+  </main>
 
+  <div class="container-fluid default-primary-color text-primary-color">
     <!-- LOCATION AND SOCIAL NETWORKS -->
     <div class="row">
       <div class="col-6 bg-location">
@@ -94,15 +89,20 @@
       <div class="col-6 bg-social-networks">
         <!-- Social Networks -->
         <div class="row">
-          
+
           <div class="col text-center">
-            <a href="https://www.facebook.com/juliocsantaman/"><i class="fab fa-facebook social-network-icons" title="Facebook"></i></a>
-            <a href="https://twitter.com/juliocsantaman/"><i class="fab fa-twitter social-network-icons" title="Twitter"></i></a>
-            <a href="https://www.instagram.com/juliocsantaman/"><i class="fab fa-instagram social-network-icons" title="Instagram"></i></a>
+            <a href="https://www.facebook.com/juliocsantaman/"><i class="fab fa-facebook social-network-icons"
+                title="Facebook"></i></a>
+            <a href="https://twitter.com/juliocsantaman/"><i class="fab fa-twitter social-network-icons"
+                title="Twitter"></i></a>
+            <a href="https://www.instagram.com/juliocsantaman/"><i class="fab fa-instagram social-network-icons"
+                title="Instagram"></i></a>
             <br>
-            <a href="https://github.com/juliocsantaman"><i class="fab fa-github social-network-icons" title="GitHub"></i></a>
+            <a href="https://github.com/juliocsantaman"><i class="fab fa-github social-network-icons"
+                title="GitHub"></i></a>
             <a href="#"><i class="fab fa-youtube social-network-icons" title="It is in process."></i></a>
-            <a href="https://www.pinterest.com.mx/juliocsantaman/"><i class="fab fa-pinterest social-network-icons" title="Pinterest"></i></a>
+            <a href="https://www.pinterest.com.mx/juliocsantaman/"><i class="fab fa-pinterest social-network-icons"
+                title="Pinterest"></i></a>
           </div>
 
         </div>
@@ -110,17 +110,18 @@
       </div>
     </div>
     <!-- END LOCATION AND SOCIAL NETWORKS -->
-
-    <!-- FOOTER -->
-    <div class="row">
-      <div class="col-12 bg-footer">
-        <footer><small>Copyright &copy 2020 - Made by Julio Santaman</small></footer>
-      </div>
-    </div>
-    <!-- END FOOTER -->
-
   </div>
-  <!-- END CONTAINER-->
+
+  <!-- FOOTER -->
+  <footer class="dark-primary-color text-primary-color text-center">
+    <div class="container-fluid">
+      <small>Copyright &copy 2020 - Made by Julio Santaman</small>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+
+
 
   <script src="./assets/bootstrap-4.4.1-dist/js/jquery-3.4.1.slim.min.js"></script>
   <script src="./assets/bootstrap-4.4.1-dist/js/popper.min.js"></script>
