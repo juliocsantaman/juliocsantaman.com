@@ -1,34 +1,28 @@
 body {
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 15px;
 }
 
 h1 {
   margin-bottom: 0;
 }
 
-/* Img home. */
-.img-home {
-  width: 500px;
-  height: 300px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+main {
+  min-height: 600px;
 }
 
-/* The img changes dimensions when max width is 500px. */
-@media (max-width: 600px) {
+  /* Img home. */
   .img-home {
-    width: 200px;
+    width: 300px;
     height: 200px;
-    
+    border-radius: 5px;
+    margin-top: 10px;
   }
-}
 
 /* Color of social network icons. */
 .social-network-icons {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 15px;
   margin: 5px;
 }
 
