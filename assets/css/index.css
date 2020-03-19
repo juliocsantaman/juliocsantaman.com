@@ -8,18 +8,22 @@ h1 {
   margin-bottom: 0;
 }
 
+h2, h3 {
+  font-size: 17px;
+}
+
 main {
   min-height: 600px;
   background-color: #FFFFFF;
 }
 
   /* Img home. */
-.img-home {
+/* .img-home {
   width: 300px;
   height: 200px;
   border-radius: 5px;
   margin-top: 10px;
-}
+} */
 
 .my-picture {
   width: 100px;

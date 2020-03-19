@@ -18,10 +18,17 @@
 */
 @media (min-width: 768px) { 
   /* Img home. */
-  .img-home {
+  /* .img-home {
     width: 500px;
     height: 300px;
+  } */
+
+  /* My picture - Julio Santaman */
+  .my-picture {
+    width: 150px;
+    height: 150px;
   }
+  
 
   main {
     min-height: 1024px;
@@ -33,12 +40,19 @@
 */
 @media (min-width: 992px) { 
   body {
-    font-size: 18px;
+    font-size: 17px;
   }
 
+  /* Social network icons */
   .social-network-icons {
     font-size: 18px;
   }
+
+  h2, h3 {
+    font-size: 20px;
+  }
+
+  
 }
 
 /* 
@@ -47,6 +61,12 @@
 @media (min-width: 1200px) { 
   main {
     min-height: 1080px;
+  }
+
+   /* My picture - Julio Santaman */
+   .my-picture {
+    width: 200px;
+    height: 200px;
   }
   
 }
