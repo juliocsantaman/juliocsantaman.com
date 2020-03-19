@@ -14,12 +14,18 @@ main {
 }
 
   /* Img home. */
-  .img-home {
-    width: 300px;
-    height: 200px;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
+.img-home {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.my-picture {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
 
 /* Color of social network icons. */
 .social-network-icons {
