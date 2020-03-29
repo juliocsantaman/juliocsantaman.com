@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto';
   font-size: 15px;
-  
+  background-color: rgba(69, 90, 100, 0.8);
 }
 
 header {
@@ -18,7 +18,8 @@ h2, h3 {
 
 main {
   min-height: 600px;
-  background-color: #FFFFFF;
+  /* background-color: rgba(69, 90, 100, 0.8); */
+  color: #FFFFFF;
 }
 
 footer {
@@ -28,14 +29,6 @@ footer {
 .location-social-networks {
   padding: 15px;
 }
-
-  /* Img home. */
-/* .img-home {
-  width: 300px;
-  height: 200px;
-  border-radius: 5px;
-  margin-top: 10px;
-} */
 
 .my-picture {
   width: 100px;
