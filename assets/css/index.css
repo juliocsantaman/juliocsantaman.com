@@ -4,6 +4,10 @@ body {
   
 }
 
+header {
+  padding: 10px;
+}
+
 h1 {
   margin-bottom: 0;
 }
@@ -15,6 +19,14 @@ h2, h3 {
 main {
   min-height: 600px;
   background-color: #FFFFFF;
+}
+
+footer {
+  padding: 10px;
+}
+
+.location-social-networks {
+  padding: 15px;
 }
 
   /* Img home. */
