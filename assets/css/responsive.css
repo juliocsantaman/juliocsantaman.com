@@ -17,19 +17,12 @@
 // Medium devices (tablets, 768px and up) 
 */
 @media (min-width: 768px) { 
-  /* Img home. */
-  /* .img-home {
-    width: 500px;
-    height: 300px;
-  } */
-
   /* My picture - Julio Santaman */
   .my-picture {
     width: 150px;
     height: 150px;
   }
   
-
   main {
     min-height: 1024px;
   }
@@ -52,6 +45,9 @@
     font-size: 20px;
   }
 
+  .email {
+    height: 17px;
+  }
   
 }
 
