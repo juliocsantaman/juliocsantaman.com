@@ -1,4 +1,2 @@
 # juliocsantaman.com
-My web site.
-
-It is in process.
+I did my web site. You can find it on https://juliocsantaman.com/
