@@ -12,6 +12,10 @@ header {
 }
 /* Style end of header */
 
+.title:hover {
+  opacity: 0.7;
+}
+
 h1 {
   margin-bottom: 0;
 }
@@ -82,3 +86,7 @@ footer {
   background: rgba(54, 175, 154, 0.7);
 }
 /* Style end of scrollbar */
+
+section h2 .fas {
+  color: #6D858C;
+}
