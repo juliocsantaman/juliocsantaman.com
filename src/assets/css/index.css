@@ -1,0 +1,92 @@
+/* Style start of body */
+body {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+}
+/* Style end of body */
+
+/* Style start of header */
+header {
+  padding: 10px;
+}
+/* Style end of header */
+
+.title:hover {
+  opacity: 0.7;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2, h3 {
+  font-size: 17px;
+}
+
+.my-picture {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* Style start of main */
+main {
+  min-height: 600px;
+}
+/* Style end of main */
+
+/* Style start of footer */
+footer {
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* Style end of footer */
+
+/* Style start of social networks */
+.location-social-networks {
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+.social-network-icons {
+  color: #FFFFFF;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.social-network-icons:hover {
+  color: #36AF9A;
+}
+
+.location {
+  text-align: center;
+}
+/* Style end of social networks */
+
+/* Style start of scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background-color: #757575;
+  /* background-color: #BDBDBD; */
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: rgba(0, 150, 136, 0.5); */
+  background: #36AF9A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* background-color: rgba(0, 150, 136, 1); */
+  background: rgba(54, 175, 154, 0.7);
+}
+/* Style end of scrollbar */
+
+section h2 .fas {
+  color: #6D858C;
+}
