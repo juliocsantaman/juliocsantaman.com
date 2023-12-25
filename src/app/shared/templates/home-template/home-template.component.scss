@@ -12,36 +12,11 @@ h2, h3 {
 main {
   min-height: 600px;
 }
+
+section h2 .fas {
+  color: #6D858C;
+}
 /* Style end of main */
-
-/* Style start of footer */
-footer {
-  padding: 10px;
-  color: #FFFFFF;
-  text-align: center;
-}
-/* Style end of footer */
-
-/* Style start of social networks */
-.location-social-networks {
-  padding: 15px;
-  color: #FFFFFF;
-}
-
-.social-network-icons {
-  color: #FFFFFF;
-  font-size: 15px;
-  margin: 5px;
-}
-
-.social-network-icons:hover {
-  color: #36AF9A;
-}
-
-.location {
-  text-align: center;
-}
-/* Style end of social networks */
 
 /* Style start of scrollbar */
 ::-webkit-scrollbar {
@@ -64,7 +39,3 @@ footer {
   background: rgba(54, 175, 154, 0.7);
 }
 /* Style end of scrollbar */
-
-section h2 .fas {
-  color: #6D858C;
-}
