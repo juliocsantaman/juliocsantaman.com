@@ -1,5 +1,5 @@
 /* Style start of footer */
-footer {
+.footer {
   padding: 10px;
   color: #FFFFFF;
   text-align: center;
@@ -7,22 +7,57 @@ footer {
 /* Style end of footer */
 
 /* Style start of social networks */
-.location-social-networks {
+.social-networks__location-container {
   padding: 15px;
   color: #FFFFFF;
 }
 
-.social-network-icons {
+.social-networks__icons {
   color: #FFFFFF;
   font-size: 15px;
-  margin: 5px;
+  // margin: 5px;
 }
 
-.social-network-icons:hover {
+.social-networks__icons:hover {
   color: #36AF9A;
 }
 
-.location {
+.social-networks__location {
   text-align: center;
 }
+
+.social-networks__col-3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 /* Style end of social networks */
+
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap 
+*/
+
+/* 
+// Small devices (landscape phones, 576px and up) 
+*/
+@media (min-width: 576px) { }
+
+/* 
+// Medium devices (tablets, 768px and up) 
+*/
+@media (min-width: 768px) { }
+
+/* 
+// Large devices (desktops, 992px and up) 
+*/
+@media (min-width: 992px) { 
+  .social-networks__icons {
+    font-size: 20px;
+  }
+}
+
+/* 
+// Extra large devices (large desktops, 1200px and up) 
+*/
+@media (min-width: 1200px) { }
