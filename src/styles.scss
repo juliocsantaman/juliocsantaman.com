@@ -6,6 +6,7 @@ body {
   font-size: 15px;
   color: #000000;
 }
+
 /* Style end of body */
 
 /* 
@@ -16,17 +17,21 @@ body {
 /* 
 // Small devices (landscape phones, 576px and up) 
 */
-@media (min-width: 576px) { }
+@media (min-width: 576px) {}
 
 /* 
 // Medium devices (tablets, 768px and up) 
 */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+  main {
+    min-height: 1024px;
+  }
+}
 
 /* 
 // Large devices (desktops, 992px and up) 
 */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   body {
     font-size: 17px;
   }
@@ -35,4 +40,8 @@ body {
 /* 
 // Extra large devices (large desktops, 1200px and up) 
 */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+  main {
+    min-height: 1080px;
+  }
+}

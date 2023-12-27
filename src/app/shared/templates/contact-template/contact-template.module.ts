@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeTemplateComponent } from './home-template.component';
+import { ContactTemplateComponent } from './contact-template.component';
+
 
 
 @NgModule({
   declarations: [
-    HomeTemplateComponent
+    ContactTemplateComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    HomeTemplateComponent
+    ContactTemplateComponent
   ]
 })
-export class HomeTemplateModule { }
+export class ContactTemplateModule { }
