@@ -1,0 +1,15 @@
+{
+  "ROOT": {
+    "APP": {
+      "ATOMS": {},
+      "MOLECULES": {},
+      "ORGANISMS": {
+        "HEADER_ORGANISM": {
+          "TITLE": "Julio Santaman"
+        }
+      },
+      "TEMPLATES": {},
+      "PAGES": {}
+    }
+  }
+}
