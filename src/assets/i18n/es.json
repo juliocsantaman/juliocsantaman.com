@@ -5,7 +5,12 @@
       "MOLECULES": {},
       "ORGANISMS": {
         "HEADER_ORGANISM": {
-          "TITLE": "Julio Santaman"
+          "TITLE": "Julio Santaman",
+          "TEXTS": {
+            "T1": "Home",
+            "T2": "Contact",
+            "T3": "GitHub"
+          }
         }
       },
       "TEMPLATES": {},

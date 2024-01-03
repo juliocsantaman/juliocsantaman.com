@@ -18,15 +18,22 @@
     <div class="collapse navbar-collapse header__navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav header__navbar-nav">
         <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" [routerLink]="['']">Home<i class="fas fa-home"></i></a>
-        </li>
-        <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" [routerLink]="['contact']">Contact<i class="fas fa-address-book"></i>
+          <a class="nav-link header__nav-link" [routerLink]="['']">
+            {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T1' | translate }}
+            <i class="fas fa-home"></i>
           </a>
         </li>
         <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" href="https://github.com/juliocsantaman">GitHub<i
-              class="fab fa-github"></i> </a>
+          <a class="nav-link header__nav-link" [routerLink]="['contact']">
+            {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T2' | translate }}
+            <i class="fas fa-address-book"></i>
+          </a>
+        </li>
+        <li class="nav-item header__nav-item">
+          <a class="nav-link header__nav-link" href="https://github.com/juliocsantaman">
+            {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T3' | translate }}
+            <i class="fab fa-github"></i>
+          </a>
         </li>
       </ul>
 
