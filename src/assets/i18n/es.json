@@ -11,6 +11,34 @@
             "T2": "Contact",
             "T3": "GitHub"
           }
+        },
+        "FOOTER_ORGANISM": {
+          "TEXTS": {
+            "T1": "Cancún, Quintana Roo",
+            "T2": "Copyright © currentYear - Made by Julio Santaman"
+          },
+          "URLS": {
+            "U1": {
+              "URL": "https://www.linkedin.com/in/juliocsantaman/",
+              "TITLE": "Linkedin"
+            },
+            "U2": {
+              "URL": "https://www.facebook.com/juliocsantaman/",
+              "TITLE": "Facebook"
+            },
+            "U3": {
+              "URL": "https://twitter.com/juliocsantaman/",
+              "TITLE": "Twitter"
+            },
+            "U4": {
+              "URL": "https://www.instagram.com/juliocsantaman/",
+              "TITLE": "Instagram"
+            },
+            "U5": {
+              "URL": "https://www.pinterest.com.mx/juliocsantaman/",
+              "TITLE": "Pinterest"
+            }
+          }
         }
       },
       "TEMPLATES": {},

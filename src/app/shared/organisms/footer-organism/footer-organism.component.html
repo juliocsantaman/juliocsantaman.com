@@ -4,7 +4,7 @@
   <div class="row social-networks__row">
     <div class="col-6 social-networks__col">
       <p class="social-networks__location">
-        Cancún, Quintana Roo
+        {{ 'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.TEXTS.T1' | translate }}
       </p>
     </div>
 
@@ -12,20 +12,20 @@
       <!-- Start of social networks -->
       <div class="row social-networks__row-2">
         <div class="col social-networks__col-3 text-center">
-          <a href="https://www.linkedin.com/in/juliocsantaman/"><i class="fab fa-linkedin social-networks__icons"
-              title="Linkedin"></i></a>
+          <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U1.URL' | translate" target="_blank"><i class="fab fa-linkedin social-networks__icons"
+              [title]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U1.TITLE' | translate"></i></a>
 
-          <a href="https://www.facebook.com/juliocsantaman/"><i class="fab fa-facebook social-networks__icons"
-              title="Facebook"></i></a>
+          <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U2.URL' | translate" target="_blank"><i class="fab fa-facebook social-networks__icons"
+              [title]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U2.TITLE' | translate"></i></a>
 
-          <a href="https://twitter.com/juliocsantaman/"><i class="fab fa-twitter social-networks__icons"
-              title="Twitter"></i></a>
+          <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U3.URL' | translate" target="_blank"><i class="fab fa-twitter social-networks__icons"
+              [title]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U3.TITLE' | translate"></i></a>
           <!-- <br> -->
-          <a href="https://www.instagram.com/juliocsantaman/"><i class="fab fa-instagram social-networks__icons"
-              title="Instagram"></i></a>
+          <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U4.URL' | translate" target="_blank"><i class="fab fa-instagram social-networks__icons"
+              [title]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U4.TITLE' | translate"></i></a>
 
-          <a href="https://www.pinterest.com.mx/juliocsantaman/"><i class="fab fa-pinterest social-networks__icons"
-              title="Pinterest"></i></a>
+          <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U5.URL' | translate" target="_blank"><i class="fab fa-pinterest social-networks__icons"
+              [title]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U5.TITLE' | translate"></i></a>
         </div>
 
       </div>
@@ -39,7 +39,9 @@
 <!-- Start of footer -->
 <footer class="footer color-1">
   <div class="footer__container container-fluid">
-    <small class="footer__text">Copyright &copy; 2022 - Made by Julio Santaman</small>
+    <small class="footer__text">
+      {{ footerText }}
+    </small>
   </div>
 </footer>
 <!-- End of footer -->
