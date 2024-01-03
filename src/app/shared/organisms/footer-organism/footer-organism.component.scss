@@ -24,12 +24,22 @@
 
 .social-networks__location {
   text-align: center;
+  margin: 0rem;
 }
 
 .social-networks__col-3 {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+.social-networks__row-1 {
+  display: flex;
+  align-items: center;
+}
+
+.social-networks__col-1 {
+  vertical-align: middle;
 }
 /* Style end of social networks */
 
