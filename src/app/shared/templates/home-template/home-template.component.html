@@ -2,53 +2,72 @@
 <main>
   <div class="container">
     <p class="text-center">
-      <img class="my-picture rounded-circle" src="./assets/img/juliocsantaman.jpg" alt="Julio Santaman"
-        title="Julio Santaman">
+      <img class="my-picture rounded-circle" [src]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.URL' | translate" [alt]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.ALT' | translate"
+        [title]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.TITLE' | translate">
     </p>
 
     <section class="education">
-      <h2> <strong>Education</strong> <i class="fas fa-university"></i></h2>
+      <h2> 
+        <strong>
+          {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.EDUCATION.TEXTS.T1' | translate }}
+        </strong> 
+        <i class="fas fa-university"></i>
+      </h2>
       <p>
-        TecMilenio University Campus Cancún - Software Development Engineering (2018 - 2022).
+        {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.EDUCATION.TEXTS.T2' | translate }}
       </p>
     </section>
 
     <section class="technical-skills">
-      <h2><strong>Technical Skills</strong> <i class="fas fa-cogs"></i></h2>
-      <!-- <p> -->
-      <h3>Web Development</h3>
+      <h2>
+        <strong>
+          {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T1' | translate }}
+        </strong> 
+        <i class="fas fa-cogs"></i>
+      </h2>
+      
+      <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T2' | translate }}</h3>
       <ul>
-        <li>HTML.</li>
-        <li>CSS.</li>
-        <li>JavaScript.</li>
-        <li>Nodejs.</li>
-        <li>SQL/Firebase.</li>
-        <li>Git (version control).</li>
-        <li>GitHub.</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T3' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T4' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T5' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T6' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T7' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T8' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T9' | translate }}</li>
       </ul>
 
-      <h3>Frameworks</h3>
+      <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T10' | translate }}</h3>
       <ul>
-        <li>Bootstrap.</li>
-        <li>Angular.</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T11' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T1' | translate }}</li>
       </ul>
-      <!-- </p> -->
+      
     </section>
 
     <section class="work-experience">
-      <h2><strong>Work Experience</strong> <i class="fas fa-briefcase"></i></h2>
-      <h3>Diplus</h3>
+      <h2>
+        <strong>
+          {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T1' | translate }}
+        </strong> 
+        <i class="fas fa-briefcase"></i>
+      </h2>
+      <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T2' | translate }}</h3>
       <p>
-        Working remotely as a Web developer using HTML, CSS, Bootstrap, JavaScript, and Git
-        (Github) technologies.
+        {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T3' | translate }}
       </p>
     </section>
 
     <section class="languages">
-      <h2><strong>Languages</strong> <i class="fas fa-language"></i></h2>
+      <h2>
+        <strong>
+          {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.LANGUAGES.TEXTS.T1' | translate }}
+        </strong> 
+        <i class="fas fa-language"></i>
+      </h2>
       <ul>
-        <li>Spanish (native).</li>
-        <li>English (intermediate).</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.LANGUAGES.TEXTS.T2' | translate }}</li>
+        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.LANGUAGES.TEXTS.T3' | translate }}</li>
       </ul>
     </section>
 

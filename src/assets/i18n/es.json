@@ -41,7 +41,53 @@
           }
         }
       },
-      "TEMPLATES": {},
+      "TEMPLATES": {
+        "HOME_TEMPLATE": {
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "./assets/img/juliocsantaman.jpg",
+              "ALT": "Julio Santaman",
+              "TITLE": "Julio Santaman"
+            }
+          },
+          "EDUCATION": {
+            "TEXTS": {
+              "T1": "Education",
+              "T2": "TecMilenio University Campus Cancún - Software Development Engineering (2018 - 2022)."
+            }
+          },
+          "TECHNICAL_SKILLS": {
+            "TEXTS": {
+              "T1": "Technical Skills",
+              "T2": "Web Development",
+              "T3": "HTML.",
+              "T4": "CSS.",
+              "T5": "JavaScript.",
+              "T6": "Nodejs.",
+              "T7": "SQL/Firebase.",
+              "T8": "Git (version control).",
+              "T9": "GitHub.",
+              "T10": "Frameworks",
+              "T11": "Bootstrap.",
+              "T12": "Angular."
+            }
+          },
+          "WORK_EXPERIENCE": {
+            "TEXTS": {
+              "T1": "Work Experience",
+              "T2": "Diplus",
+              "T3": "Working remotely as a Web developer using HTML, CSS, Bootstrap, JavaScript, and Git (Github) technologies."
+            }
+          },
+          "LANGUAGES": {
+            "TEXTS": {
+              "T1": "Languages",
+              "T2": "Spanish (native).",
+              "T3": "English (intermediate)."
+            }
+          }
+        }
+      },
       "PAGES": {}
     }
   }
