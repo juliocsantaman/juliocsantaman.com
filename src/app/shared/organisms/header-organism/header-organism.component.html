@@ -18,13 +18,13 @@
     <div class="collapse navbar-collapse header__navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav header__navbar-nav">
         <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" [routerLink]="['']">
+          <a class="nav-link header__nav-link" [routerLink]="['']" [class.active]="isLinkActive('')">
             {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T1' | translate }}
             <i class="fas fa-home"></i>
           </a>
         </li>
         <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" [routerLink]="['contact']">
+          <a class="nav-link header__nav-link" [routerLink]="['contact']" [class.active]="isLinkActive('contact')">
             {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T2' | translate }}
             <i class="fas fa-address-book"></i>
           </a>
