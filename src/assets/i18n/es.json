@@ -86,6 +86,16 @@
               "T3": "English (intermediate)."
             }
           }
+        },
+        "CONTACT_TEMPLATE": {
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "./assets/img/email.png"
+            }
+          },
+          "TEXTS": {
+            "T1": "Email:"
+          }
         }
       },
       "PAGES": {}

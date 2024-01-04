@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactTemplateComponent } from './contact-template.component';
-
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -9,7 +9,8 @@ import { ContactTemplateComponent } from './contact-template.component';
     ContactTemplateComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    TranslateModule
   ],
   exports: [
     ContactTemplateComponent
