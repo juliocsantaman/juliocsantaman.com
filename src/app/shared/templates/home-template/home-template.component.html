@@ -2,15 +2,16 @@
 <main>
   <div class="container">
     <p class="text-center">
-      <img class="my-picture rounded-circle" [src]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.URL' | translate" [alt]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.ALT' | translate"
+      <img class="my-picture rounded-circle" [src]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.URL' | translate"
+        [alt]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.ALT' | translate"
         [title]="'ROOT.APP.TEMPLATES.HOME_TEMPLATE.IMAGES.IMG_1.TITLE' | translate">
     </p>
 
     <section class="education">
-      <h2> 
+      <h2>
         <strong>
           {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.EDUCATION.TEXTS.T1' | translate }}
-        </strong> 
+        </strong>
         <i class="fas fa-university"></i>
       </h2>
       <p>
@@ -22,16 +23,16 @@
       <h2>
         <strong>
           {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T1' | translate }}
-        </strong> 
+        </strong>
         <i class="fas fa-cogs"></i>
       </h2>
-      
+
       <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T2' | translate }}</h3>
       <ul>
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T3' | translate }}</li>
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T4' | translate }}</li>
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T5' | translate }}</li>
-        <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T6' | translate }}</li>
+        <!-- <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T6' | translate }}</li> -->
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T7' | translate }}</li>
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T8' | translate }}</li>
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T9' | translate }}</li>
@@ -42,27 +43,38 @@
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T11' | translate }}</li>
         <li>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.TECHNICAL_SKILLS.TEXTS.T12' | translate }}</li>
       </ul>
-      
+
     </section>
 
     <section class="work-experience">
       <h2>
         <strong>
           {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T1' | translate }}
-        </strong> 
+        </strong>
         <i class="fas fa-briefcase"></i>
       </h2>
-      <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T2' | translate }}</h3>
-      <p>
-        {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T3' | translate }}
-      </p>
+      
+      <div>
+        <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T4' | translate }}</h3>
+        <p>
+          {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T5' | translate }}
+        </p>
+      </div>
+      
+      <div>
+        <h3>{{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T2' | translate }}</h3>
+        <p>
+          {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.WORK_EXPERIENCE.TEXTS.T3' | translate }}
+        </p>
+      </div>
+
     </section>
 
     <section class="languages">
       <h2>
         <strong>
           {{ 'ROOT.APP.TEMPLATES.HOME_TEMPLATE.LANGUAGES.TEXTS.T1' | translate }}
-        </strong> 
+        </strong>
         <i class="fas fa-language"></i>
       </h2>
       <ul>
