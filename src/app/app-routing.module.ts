@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { LayoutMainPageComponent } from './pages/layout-main-page/layout-main-page.component';
 import { LayoutMainPageModule } from './pages/layout-main-page/layout-main-page.module';
 import { HomePageComponent } from './pages/home-page/home-page.component';
-import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 
 const routes: Routes =
@@ -15,10 +14,6 @@ const routes: Routes =
         {
           path: '',
           component: HomePageComponent
-        },
-        {
-          path: 'contact',
-          component: ContactPageComponent
         }
       ]
     },

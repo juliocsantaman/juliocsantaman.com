@@ -6,6 +6,7 @@ import { HeroOrganismModule } from '../../organisms/hero-organism/hero-organism.
 import { AboutOrganismModule } from '../../organisms/about-organism/about-organism.module';
 import { TechnologiesOrganismModule } from '../../organisms/technologies-organism/technologies-organism.module';
 import { ProjectsOrganismModule } from '../../organisms/projects-organism/projects-organisms.module';
+import { ContactOrganismModule } from '../../organisms/contact-organism/contact-organism.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProjectsOrganismModule } from '../../organisms/projects-organism/projec
     HeroOrganismModule,
     AboutOrganismModule,
     TechnologiesOrganismModule,
-    ProjectsOrganismModule
+    ProjectsOrganismModule,
+    ContactOrganismModule
   ],
   exports: [
     HomeTemplateComponent
