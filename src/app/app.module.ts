@@ -6,12 +6,10 @@ import { AppComponent } from './app.component';
 
 import { AppInitializersModule } from './core/app-initializers/app-initializers.module';
 import { PackagesModule } from './core/packages/packages.module';
-import { AboutComponent } from './shared/organisms/about-organism/about/about.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AboutComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
