@@ -62,11 +62,12 @@ export class TechnologiesOrganismComponent {
       case 'Expert':
         return 'bg-primary/10 text-primary border-primary/20';
       case 'Advanced':
-        return 'bg-sky-500/10 text-sky-400 border-sky-500/20';
+        return 'bg-sky-200/30 text-sky-800 border-sky-300';
       case 'Proficient':
-        return 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20';
+        return 'bg-emerald-200/30 text-emerald-800 border-emerald-300';
       default:
         return 'bg-muted text-muted-foreground';
     }
   }
+
 }
