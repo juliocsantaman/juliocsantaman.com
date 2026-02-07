@@ -4,19 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* tokens (copiados tal cual de React) */
-:root {
-  --background: 0 0% 100%;
-  --foreground: 240 6% 10%;
-  --border: 240 4% 88%;
-
-  --primary: 262 83% 58%;
-  --primary-foreground: 0 0% 100%;
-
-  --muted-foreground: 240 4% 46%;
-  --radius: 0.5rem;
+body {
+  @apply font-sans;
 }
-
 
 /* Style start of body */
 // body {
