@@ -1,0 +1,66 @@
+<section id="projects" class="py-20 sm:py-32">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="space-y-12">
+
+      <!-- Header -->
+      <div class="space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Featured Projects</h2>
+        <div class="h-1 w-20 bg-primary rounded-full"></div>
+        <p class="text-lg text-muted-foreground max-w-2xl">
+          A selection of projects that showcase my skills and experience in building modern web applications.
+        </p>
+      </div>
+
+      <!-- Projects grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div *ngFor="let project of projects; let i = index"
+          class="overflow-hidden bg-card border border-card-border rounded-lg hover:bg-muted/50 transition-all shadow-sm hover:shadow-md">
+
+          <!-- Image -->
+          <div class="aspect-video overflow-hidden bg-muted">
+            <img [src]="project.image" [alt]="project.title" class="w-full h-full object-cover">
+          </div>
+
+          <!-- Content -->
+          <div class="p-6 space-y-3">
+            <h3 class="text-xl font-semibold text-foreground">
+              {{ project.title }}
+            </h3>
+            <p class="text-sm text-muted-foreground leading-relaxed">
+              {{ project.description }}
+            </p>
+
+            <!-- Tags -->
+            <div class="flex flex-wrap gap-2">
+              <span *ngFor="let tag of project.tags"
+                class="bg-muted/20 text-muted-foreground text-xs px-2 py-1 rounded-full border border-muted/40">
+                {{ tag }}
+              </span>
+            </div>
+          </div>
+
+          <!-- Footer buttons -->
+          <div class="p-6 pt-0 flex gap-3">
+            <a [href]="project.demoUrl" target="_blank"
+              class="flex-1 inline-flex items-center justify-center px-3 py-2 border border-primary text-primary text-sm font-medium rounded-lg hover:bg-primary/10 transition-all">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14 3h7v7m0 0L10 24H3v-7l14-14z" />
+              </svg>
+              Demo
+            </a>
+
+            <a [href]="project.githubUrl" target="_blank"
+              class="flex-1 inline-flex items-center justify-center px-3 py-2 border border-primary text-primary text-sm font-medium rounded-lg hover:bg-primary/10 transition-all">
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.372 0 0 5.372 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577v-2.03c-3.338.726-4.033-1.61-4.033-1.61-.546-1.387-1.334-1.756-1.334-1.756-1.09-.745.082-.729.082-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.304-5.467-1.334-5.467-5.931 0-1.31.468-2.382 1.235-3.222-.123-.303-.535-1.523.117-3.176 0 0 1.008-.323 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.288-1.553 3.294-1.23 3.294-1.23.653 1.653.241 2.873.118 3.176.77.84 1.233 1.912 1.233 3.222 0 4.61-2.807 5.625-5.479 5.921.43.372.815 1.102.815 2.222v3.293c0 .319.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.628-5.372-12-12-12z" />
+              </svg>
+              Code
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

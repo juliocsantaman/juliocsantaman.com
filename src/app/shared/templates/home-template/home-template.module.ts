@@ -5,6 +5,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { HeroOrganismModule } from '../../organisms/hero-organism/hero-organism.module';
 import { AboutOrganismModule } from '../../organisms/about-organism/about-organism.module';
 import { TechnologiesOrganismModule } from '../../organisms/technologies-organism/technologies-organism.module';
+import { ProjectsOrganismModule } from '../../organisms/projects-organism/projects-organisms.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TechnologiesOrganismModule } from '../../organisms/technologies-organis
     TranslateModule,
     HeroOrganismModule,
     AboutOrganismModule,
-    TechnologiesOrganismModule
+    TechnologiesOrganismModule,
+    ProjectsOrganismModule
   ],
   exports: [
     HomeTemplateComponent
