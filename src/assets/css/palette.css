@@ -23,4 +23,8 @@
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
+
+  --chart-2: 200 80% 50%;
+  --chart-3: 120 70% 40%;
+
 }
