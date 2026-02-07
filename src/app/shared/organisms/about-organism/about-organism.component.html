@@ -1,1 +1,87 @@
-<p>about-organism works!</p>
+<section id="about" class="py-20 sm:py-32">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="space-y-12">
+
+      <!-- Title -->
+      <div class="space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">
+          About Me
+        </h2>
+        <div class="h-1 w-20 bg-primary rounded-full"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="grid lg:grid-cols-3 gap-8">
+
+        <!-- Text -->
+        <div class="lg:col-span-2 space-y-6">
+          <p class="text-lg text-foreground leading-relaxed">
+            I'm a passionate full-stack developer with a love for creating elegant solutions
+            to complex problems. With over 5 years of experience in web development, I specialize
+            in building modern, responsive applications that deliver exceptional user experiences.
+          </p>
+
+          <p class="text-base text-muted-foreground leading-relaxed">
+            My journey in software development started with a curiosity about how things work
+            on the web. Today, I work with cutting-edge technologies to build scalable applications
+            that make a difference. I'm always eager to learn new technologies and best practices
+            to stay at the forefront of web development.
+          </p>
+
+          <p class="text-base text-muted-foreground leading-relaxed">
+            When I'm not coding, you can find me contributing to open-source projects,
+            writing technical articles, or exploring new frameworks and tools that push
+            the boundaries of what's possible on the web.
+          </p>
+        </div>
+
+        <!-- Stats -->
+        <div class="space-y-4">
+          <div *ngFor="let stat of stats" class="p-4 rounded-lg border bg-card hover:shadow-md transition-all"
+            [attr.data-testid]="'card-stat-' + stat.testId">
+            <div class="flex items-center gap-3">
+              <div class="p-2 bg-primary/10 rounded-md">
+                <!-- Icons -->
+                <svg *ngIf="stat.icon === 'calendar'" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+
+                <svg *ngIf="stat.icon === 'briefcase'" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 7V3m0 4a4 4 0 014 4v10a2 2 0 01-2 2H6a2 2 0 01-2-2V11a4 4 0 014-4h4z" />
+                </svg>
+
+                <svg *ngIf="stat.icon === 'map-pin'" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 11c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 22s8-4.5 8-10a8 8 0 10-16 0c0 5.5 8 10 8 10z" />
+                </svg>
+
+                <svg *ngIf="stat.icon === 'code'" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-primary"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                </svg>
+              </div>
+
+              <div>
+                <p class="text-sm text-muted-foreground">
+                  {{ stat.label }}
+                </p>
+                <p class="font-semibold text-foreground" [attr.data-testid]="'text-stat-' + stat.testId">
+                  {{ stat.value }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
