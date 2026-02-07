@@ -1,45 +1,84 @@
-<!-- Start of header -->
-<header class="header color-1">
+<nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" [ngClass]="
+    isScrolled
+      ? 'bg-background/80 backdrop-blur-lg border-b border-border'
+      : 'bg-transparent'
+  ">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
 
-  <!-- Start of nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark header__navbar">
-    <a class="navbar-brand header__title" [routerLink]="['']">
-      <span class="color-4">
-        <strong> {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TITLE' | translate }} </strong>
-      </span>
-      <i class="fas fa-laptop-code"></i>
-    </a>
-    <button class="navbar-toggler header__navbar-toggler" type="button" data-toggle="collapse"
-      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon header__navbar-toggler-icon"></span>
-    </button>
+      <!-- LOGO -->
+      <button (click)="scrollToSection('home')" class="text-xl font-bold text-foreground" data-testid="button-logo">
+        Portfolio
+      </button>
 
-    <div class="collapse navbar-collapse header__navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav header__navbar-nav">
-        <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" [routerLink]="['']" [class.active]="isLinkActive('')">
-            {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T1' | translate }}
-            <i class="fas fa-home"></i>
-          </a>
-        </li>
-        <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" [routerLink]="['contact']" [class.active]="isLinkActive('contact')">
-            {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T2' | translate }}
-            <i class="fas fa-address-book"></i>
-          </a>
-        </li>
-        <li class="nav-item header__nav-item">
-          <a class="nav-link header__nav-link" href="https://github.com/juliocsantaman" target="_blank">
-            {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.TEXTS.T3' | translate }}
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
+      <!-- DESKTOP -->
+      <div class="hidden md:flex items-center gap-8">
+        <button *ngFor="let item of navItems" (click)="scrollToSection(item.id)"
+          class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          [attr.data-testid]="'link-nav-' + item.id">
+          {{ item.label }}
+        </button>
+
+        <!-- THEME TOGGLE -->
+        <button (click)="toggleTheme()"
+          class="inline-flex items-center justify-center rounded-md p-2 hover:bg-muted transition"
+          data-testid="button-theme-toggle">
+          <!-- Sun -->
+          <svg *ngIf="isDark" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364-1.414 1.414M7.05 16.95l-1.414 1.414M16.95 16.95l1.414 1.414M7.05 7.05 5.636 5.636M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+
+          <!-- Moon -->
+          <svg *ngIf="!isDark" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- MOBILE -->
+      <div class="md:hidden flex items-center gap-2">
+        <button (click)="toggleTheme()"
+          class="inline-flex items-center justify-center rounded-md p-2 hover:bg-muted transition"
+          data-testid="button-theme-toggle-mobile">
+          <svg *ngIf="isDark" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364-1.414 1.414M7.05 16.95l-1.414 1.414M16.95 16.95l1.414 1.414M7.05 7.05 5.636 5.636M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+
+          <svg *ngIf="!isDark" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" />
+          </svg>
+        </button>
+
+        <button (click)="isMobileMenuOpen = !isMobileMenuOpen"
+          class="inline-flex items-center justify-center rounded-md p-2 hover:bg-muted transition"
+          data-testid="button-menu-toggle">
+          <!-- X -->
+          <svg *ngIf="isMobileMenuOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+
+          <!-- Menu -->
+          <svg *ngIf="!isMobileMenuOpen" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
 
     </div>
-  </nav>
-  <!-- End of nav -->
+  </div>
 
-</header>
-<!-- End of header -->
+  <!-- MOBILE MENU -->
+  <div *ngIf="isMobileMenuOpen" class="md:hidden bg-background border-t border-border">
+    <div class="px-4 py-4 space-y-3">
+      <button *ngFor="let item of navItems" (click)="scrollToSection(item.id)"
+        class="block w-full text-left px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors"
+        [attr.data-testid]="'link-mobile-nav-' + item.id">
+        {{ item.label }}
+      </button>
+    </div>
+  </div>
+</nav>

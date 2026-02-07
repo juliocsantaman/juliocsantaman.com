@@ -1,0 +1,85 @@
+<section id="home" class="min-h-screen flex items-center relative">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+      <!-- LEFT -->
+      <div class="space-y-8">
+        <div class="space-y-4">
+          <h1
+            class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight"
+          >
+            Full Stack
+            <span class="block text-primary">Developer</span>
+          </h1>
+
+          <p
+            class="text-lg sm:text-xl text-muted-foreground max-w-xl leading-relaxed"
+          >
+            Building modern web applications with cutting-edge technologies.
+            Passionate about creating seamless user experiences and scalable
+            solutions.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+          <!-- Primary button -->
+          <button
+            type="button"
+            class="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:opacity-90 transition"
+            (click)="scrollToSection('projects')"
+            data-testid="button-view-projects"
+          >
+            View Projects
+          </button>
+
+          <!-- Outline button -->
+          <button
+            type="button"
+            class="inline-flex items-center justify-center rounded-lg border border-border px-6 py-3 text-sm font-medium hover:bg-accent transition"
+            (click)="scrollToSection('contact')"
+            data-testid="button-contact"
+          >
+            Get in Touch
+          </button>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="relative">
+        <div class="relative rounded-md overflow-hidden">
+          <img
+            src="https://dev-folio-x--juliocsantaman.replit.app/assets/Modern_developer_workspace_hero_56fc0701-DBWUc2TV.png"
+            alt="Developer workspace with modern setup"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scroll down -->
+  <button
+    type="button"
+    class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
+    aria-label="Scroll to next section"
+    data-testid="button-scroll-down"
+    (click)="scrollToSection('about')"
+  >
+    <!-- ArrowDown (SVG inline para no depender de librerías) -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-6 h-6 text-muted-foreground"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </button>
+</section>

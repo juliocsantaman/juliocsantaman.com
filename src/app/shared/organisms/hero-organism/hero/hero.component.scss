@@ -1,0 +1,45 @@
+.hero-section {
+  min-height: 100vh;
+  background-color: hsl(var(--background));
+}
+
+.hero-title {
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  line-height: 1.1;
+}
+
+.hero-title span {
+  color: hsl(var(--primary));
+}
+
+.hero-description {
+  color: hsl(var(--muted-foreground));
+}
+
+.scroll-down-btn {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: hsl(var(--muted-foreground));
+  animation: bounce 1.5s infinite;
+}
+
+.scroll-down-btn:hover {
+  color: hsl(var(--primary));
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(8px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(4px);
+  }
+}
