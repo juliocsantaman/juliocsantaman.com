@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 @Component({
   selector: 'app-contact-organism',
   templateUrl: './contact-organism.component.html',
-  styleUrls: ['./contact-organism.component.scss']
+  styleUrls: ['./contact-organism.component.scss'],
 })
 export class ContactOrganismComponent {
   contactForm: FormGroup;
@@ -18,19 +18,24 @@ export class ContactOrganismComponent {
     });
   }
 
+  hasError(controlName: string, errorName: string): boolean {
+    const control = this.contactForm.get(controlName);
+    return !!(control && control.touched && control.hasError(errorName));
+  }
+
   submitForm() {
-    if (this.contactForm.invalid) return;
+    if (this.contactForm.invalid) {
+      this.contactForm.markAllAsTouched();
+      return;
+    }
+
     this.isSubmitting = true;
 
-    // Simulación de envío de formulario (API call)
+    // Simulación de envío
     setTimeout(() => {
-      alert('Message sent! Thanks for reaching out.'); 
+      alert('Message sent! Thanks for reaching out.');
       this.contactForm.reset();
       this.isSubmitting = false;
     }, 1000);
-  }
-
-  openSocial(url: string) {
-    window.open(url, '_blank');
   }
 }
