@@ -33,8 +33,8 @@ export class TechnologiesOrganismComponent {
     {
       category: 'Backend',
       technologies: [
-        { name: 'C#', icon: 'fa-solid fa-code', level: 'Expert' },
-        { name: '.NET', icon: 'fa-solid fa-circle-nodes', level: 'Expert' },
+        { name: 'C#', icon: 'fa-solid fa-code', level: 'Advanced' },
+        { name: '.NET', icon: 'fa-solid fa-circle-nodes', level: 'Advanced' },
         { name: 'SQL', icon: 'fa-solid fa-database', level: 'Advanced' },
         { name: 'xUnit', icon: 'fa-solid fa-vial', level: 'Advanced' },
         { name: 'Unit & Integration Testing', icon: 'fa-solid fa-flask', level: 'Advanced' },
@@ -45,9 +45,9 @@ export class TechnologiesOrganismComponent {
       technologies: [
         { name: 'Git', icon: 'fa-brands fa-git-alt', level: 'Expert' },
         { name: 'GitHub', icon: 'fa-brands fa-github', level: 'Expert' },
-        { name: 'GitHub Desktop', icon: 'fa-brands fa-github', level: 'Proficient' },
+        { name: 'GitHub Desktop', icon: 'fa-brands fa-github', level: 'Expert' },
         { name: 'Docker', icon: 'fa-brands fa-docker', level: 'Advanced' },
-        { name: 'AWS', icon: 'fa-brands fa-aws', level: 'Proficient' },
+        { name: 'AWS', icon: 'fa-brands fa-aws', level: 'Advanced' },
         { name: 'Azure DevOps', icon: 'fa-brands fa-microsoft', level: 'Advanced' },
         { name: 'CI/CD', icon: 'fa-solid fa-infinity', level: 'Advanced' },
         { name: 'Postman', icon: 'fa-solid fa-paper-plane', level: 'Advanced' },
