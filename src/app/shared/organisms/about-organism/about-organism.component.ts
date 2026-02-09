@@ -17,13 +17,13 @@ export class AboutOrganismComponent {
     {
       icon: 'calendar',
       label: 'Experience',
-      value: '5+ Years',
+      value: '3+ Years',
       testId: 'experience',
     },
     {
       icon: 'briefcase',
       label: 'Current Role',
-      value: 'Senior Developer',
+      value: 'Fullstack Developer',
       testId: 'current-role',
     },
     {
@@ -35,7 +35,7 @@ export class AboutOrganismComponent {
     {
       icon: 'code',
       label: 'Projects',
-      value: '50+ Completed',
+      value: '6+ Completed',
       testId: 'projects',
     },
   ];
