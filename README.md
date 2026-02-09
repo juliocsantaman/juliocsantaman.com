@@ -10,6 +10,7 @@ git reset HEAD CNAME
 
 # 4️⃣ Copiar archivos de dist a la rama
 robocopy "dist\web-site" "." /mir
+cp -r dist/web-site/* . (gitbash)
 
 # 5️⃣ Commit y push
 git add .
