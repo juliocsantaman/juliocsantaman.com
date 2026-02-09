@@ -60,14 +60,30 @@ export class TechnologiesOrganismComponent {
   getLevelColor(level: string): string {
     switch (level) {
       case 'Expert':
-        return 'bg-primary/10 text-primary border-primary/20';
+        return `
+        bg-primary/10 text-primary border-primary/20
+        dark:bg-primary/20 dark:text-primary dark:border-primary/40
+      `;
+
       case 'Advanced':
-        return 'bg-sky-200/30 text-sky-800 border-sky-300';
+        return `
+        bg-sky-200/30 text-sky-800 border-sky-300
+        dark:bg-sky-500/20 dark:text-sky-300 dark:border-sky-500/40
+      `;
+
       case 'Proficient':
-        return 'bg-emerald-200/30 text-emerald-800 border-emerald-300';
+        return `
+        bg-emerald-200/30 text-emerald-800 border-emerald-300
+        dark:bg-emerald-500/20 dark:text-emerald-300 dark:border-emerald-500/40
+      `;
+
       default:
-        return 'bg-muted text-muted-foreground';
+        return `
+        bg-muted text-muted-foreground border-border
+        dark:bg-muted/40 dark:text-muted-foreground
+      `;
     }
   }
+
 
 }

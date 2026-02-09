@@ -1,4 +1,10 @@
-<section id="home" class="min-h-screen flex items-center relative">
+<!-- HERO / HOME SECTION con Dark Mode -->
+<section
+  id="home"
+  class="min-h-screen flex items-center relative
+         bg-background text-foreground
+         dark:bg-background dark:text-foreground"
+>
   <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid lg:grid-cols-2 gap-12 items-center">
 
@@ -13,7 +19,8 @@
           </h1>
 
           <p
-            class="text-lg sm:text-xl text-muted-foreground max-w-xl leading-relaxed"
+            class="text-lg sm:text-xl max-w-xl leading-relaxed
+                   text-muted-foreground"
           >
             Building modern web applications with cutting-edge technologies.
             Passionate about creating seamless user experiences and scalable
@@ -25,9 +32,11 @@
           <!-- Primary button -->
           <button
             type="button"
-            class="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:opacity-90 transition"
+            class="inline-flex items-center justify-center rounded-lg
+                   bg-primary px-6 py-3 text-sm font-medium
+                   text-primary-foreground
+                   hover:opacity-90 transition"
             (click)="scrollToSection('projects')"
-            data-testid="button-view-projects"
           >
             View Projects
           </button>
@@ -35,9 +44,11 @@
           <!-- Outline button -->
           <button
             type="button"
-            class="inline-flex items-center justify-center rounded-lg border border-border px-6 py-3 text-sm font-medium hover:bg-accent transition"
+            class="inline-flex items-center justify-center rounded-lg
+                   border border-border px-6 py-3 text-sm font-medium
+                   bg-background text-foreground
+                   hover:bg-accent transition"
             (click)="scrollToSection('contact')"
-            data-testid="button-contact"
           >
             Get in Touch
           </button>
@@ -63,10 +74,8 @@
     type="button"
     class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
     aria-label="Scroll to next section"
-    data-testid="button-scroll-down"
     (click)="scrollToSection('about')"
   >
-    <!-- ArrowDown (SVG inline para no depender de librerías) -->
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="w-6 h-6 text-muted-foreground"

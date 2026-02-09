@@ -1,138 +1,55 @@
-<section id="contact" class="py-20 sm:py-32 bg-muted/30">
+<section id="contact" class="py-20 sm:py-32 bg-muted/30 dark:bg-background text-foreground">
   <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="space-y-12">
 
       <!-- Header -->
       <div class="space-y-4 text-center">
-        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Get In Touch</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">
+          Get In Touch
+        </h2>
         <div class="h-1 w-20 bg-primary rounded-full mx-auto"></div>
-        <p class="text-lg text-muted-foreground max-w-2xl mx-auto">
+        <p class="text-lg text-muted-foreground dark:text-muted-foreground max-w-2xl mx-auto">
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
         </p>
       </div>
-
-      <!-- <div class="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto"> -->
-
-      <!-- Form -->
-      <!-- <div class="bg-card border border-card-border rounded-lg p-8 shadow-sm">
-          <form [formGroup]="contactForm" (ngSubmit)="submitForm()" class="space-y-6"> -->
-
-      <!-- Name -->
-      <!-- <div class="space-y-2">
-              <label for="name" class="block text-sm font-medium text-foreground">Name</label>
-              <input id="name" formControlName="name" placeholder="Your name" [disabled]="isSubmitting" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2
-                       focus:ring-primary focus:border-primary
-                       border-input" />
-              <p *ngIf="hasError('name','required')" class="text-sm text-red-500">
-                Name is required
-              </p>
-            </div> -->
-
-      <!-- Email -->
-      <!-- <div class="space-y-2">
-              <label for="email" class="block text-sm font-medium text-foreground">Email</label>
-              <input id="email" type="email" formControlName="email" placeholder="your.email@example.com"
-                [disabled]="isSubmitting" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2
-                       focus:ring-primary focus:border-primary
-                       border-input" />
-              <p *ngIf="hasError('email','required')" class="text-sm text-red-500">
-                Email is required
-              </p>
-              <p *ngIf="hasError('email','email')" class="text-sm text-red-500">
-                Please enter a valid email
-              </p>
-            </div> -->
-
-      <!-- Message -->
-      <!-- <div class="space-y-2">
-              <label for="message" class="block text-sm font-medium text-foreground">Message</label>
-              <textarea id="message" rows="5" formControlName="message" placeholder="Tell me about your project..."
-                [disabled]="isSubmitting" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2
-                       focus:ring-primary focus:border-primary
-                       border-input"></textarea>
-              <p *ngIf="hasError('message','required')" class="text-sm text-red-500">
-                Message is required
-              </p>
-            </div> -->
-
-      <!-- Submit -->
-      <!-- <button type="submit" [disabled]="isSubmitting" class="w-full inline-flex items-center justify-center px-4 py-2
-                     bg-primary text-white font-medium rounded-lg
-                     hover:bg-primary/90 transition-all disabled:opacity-50">
-              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-              {{ isSubmitting ? 'Sending...' : 'Send Message' }}
-            </button>
-
-          </form>
-        </div> -->
-
-      <!-- Info -->
-      <!-- <div class="space-y-8">
-          <div>
-            <h3 class="text-xl font-semibold text-foreground mb-4">Contact Information</h3>
-            <img src="assets/img/email.png" alt="Email icon" class="email-icon" />
-          </div>
-
-          <div>
-            <h3 class="text-xl font-semibold text-foreground mb-4">Follow Me</h3>
-            <div class="flex gap-4">
-              <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U6.URL' | translate" target="_blank" class="flex items-center justify-center border border-primary text-primary
-                       h-12 w-12 rounded-lg hover:bg-primary/10 transition-all">
-                <i class="fab fa-github text-xl"></i>
-              </a>
-
-              <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U1.URL' | translate" target="_blank" class="flex items-center justify-center border border-primary text-primary
-                       h-12 w-12 rounded-lg hover:bg-primary/10 transition-all">
-                <i class="fab fa-linkedin text-xl"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="bg-primary/5 border border-primary/20 p-6 rounded-lg">
-            <p class="text-sm text-muted-foreground">
-              <span class="font-semibold text-foreground">Response Time:</span>
-              I typically respond within 24 hours during weekdays.
-            </p>
-          </div>
-        </div>
-
-      </div> -->
 
       <div class="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
 
         <!-- Info -->
         <div class="space-y-8 lg:col-span-2 flex flex-col items-center text-center">
 
-          <div>
-            <h3 class="text-xl font-semibold text-foreground mb-4">
+          <!-- Contact Info -->
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold text-foreground dark:text-white">
               Contact Information
             </h3>
-            <img src="assets/img/email.png" alt="Email icon" class="w-48 mx-auto" />
+            <div class="p-6 bg-card border border-border rounded-lg max-w-md">
+              <img src="assets/img/email.png" alt="Email icon" class="w-48 mx-auto" />
+            </div>
           </div>
 
-          <div>
-            <h3 class="text-xl font-semibold text-foreground mb-4">
+          <!-- Follow Me -->
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold text-foreground dark:text-white">
               Follow Me
             </h3>
-
             <div class="flex gap-4 justify-center">
               <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U6.URL' | translate" target="_blank" class="flex items-center justify-center border border-primary text-primary
-                 h-12 w-12 rounded-lg hover:bg-primary/10 transition-all">
+                        h-12 w-12 rounded-lg hover:bg-primary/10 dark:hover:bg-primary/20 transition-all">
                 <i class="fab fa-github text-xl"></i>
               </a>
 
               <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U1.URL' | translate" target="_blank" class="flex items-center justify-center border border-primary text-primary
-                 h-12 w-12 rounded-lg hover:bg-primary/10 transition-all">
+                        h-12 w-12 rounded-lg hover:bg-primary/10 dark:hover:bg-primary/20 transition-all">
                 <i class="fab fa-linkedin text-xl"></i>
               </a>
             </div>
           </div>
 
-          <div class="bg-primary/5 border border-primary/20 p-6 rounded-lg max-w-md">
-            <p class="text-sm text-muted-foreground">
-              <span class="font-semibold text-foreground">Response Time:</span>
+          <!-- Response Time -->
+          <div class="p-6 bg-card border border-border rounded-lg max-w-md hover:shadow-md transition-all">
+            <p class="text-sm text-muted-foreground dark:text-muted-foreground">
+              <span class="font-semibold text-foreground dark:text-white">Response Time:</span>
               I typically respond within 24 hours during weekdays.
             </p>
           </div>
