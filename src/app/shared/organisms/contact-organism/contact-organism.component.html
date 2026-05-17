@@ -5,11 +5,11 @@
       <!-- Header -->
       <div class="space-y-4 text-center">
         <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">
-          Get In Touch
+          {{ 'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.TITLE' | translate }}
         </h2>
         <div class="h-1 w-20 bg-primary rounded-full mx-auto"></div>
         <p class="text-lg text-muted-foreground dark:text-muted-foreground max-w-2xl mx-auto">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          {{ 'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.SUBTITLE' | translate }}
         </p>
       </div>
 
@@ -21,17 +21,18 @@
           <!-- Contact Info -->
           <div class="space-y-4">
             <h3 class="text-xl font-semibold text-foreground dark:text-white">
-              Contact Information
+              {{ 'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.CONTACT_INFO_TITLE' | translate }}
             </h3>
             <div class="p-6 bg-card border border-border rounded-lg max-w-md">
-              <img src="assets/img/email.png" alt="Email icon" class="w-48 mx-auto" />
+              <img [src]="'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.IMAGES.IMG_1.URL' | translate"
+                [alt]="'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.IMAGES.IMG_1.ALT' | translate" class="w-48 mx-auto" />
             </div>
           </div>
 
           <!-- Follow Me -->
           <div class="space-y-4">
             <h3 class="text-xl font-semibold text-foreground dark:text-white">
-              Follow Me
+              {{ 'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.FOLLOW_ME_TITLE' | translate }}
             </h3>
             <div class="flex gap-4 justify-center">
               <a [href]="'ROOT.APP.ORGANISMS.FOOTER_ORGANISM.URLS.U6.URL' | translate" target="_blank" class="flex items-center justify-center border border-primary text-primary
@@ -49,8 +50,8 @@
           <!-- Response Time -->
           <div class="p-6 bg-card border border-border rounded-lg max-w-md hover:shadow-md transition-all">
             <p class="text-sm text-muted-foreground dark:text-muted-foreground">
-              <span class="font-semibold text-foreground dark:text-white">Response Time:</span>
-              I typically respond within 24 hours during weekdays.
+              <span class="font-semibold text-foreground dark:text-white">{{ 'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.RESPONSE_TIME.LABEL' | translate }}</span>
+              {{ 'ROOT.APP.ORGANISMS.CONTACT_ORGANISM.RESPONSE_TIME.DESCRIPTION' | translate }}
             </p>
           </div>
 

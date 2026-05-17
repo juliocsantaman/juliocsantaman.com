@@ -14,17 +14,15 @@
           <h1
             class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight"
           >
-            Full Stack
-            <span class="block text-primary">Developer</span>
+            {{ 'ROOT.APP.ORGANISMS.HERO_ORGANISM.TITLE_LINE_1' | translate }}
+            <span class="block text-primary">{{ 'ROOT.APP.ORGANISMS.HERO_ORGANISM.TITLE_LINE_2' | translate }}</span>
           </h1>
 
           <p
             class="text-lg sm:text-xl max-w-xl leading-relaxed
                    text-muted-foreground"
           >
-            Building modern web applications with cutting-edge technologies.
-            Passionate about creating seamless user experiences and scalable
-            solutions.
+            {{ 'ROOT.APP.ORGANISMS.HERO_ORGANISM.DESCRIPTION' | translate }}
           </p>
         </div>
 
@@ -38,7 +36,7 @@
                    hover:opacity-90 transition"
             (click)="scrollToSection('projects')"
           >
-            View Projects
+            {{ 'ROOT.APP.ORGANISMS.HERO_ORGANISM.BUTTONS.VIEW_PROJECTS' | translate }}
           </button>
 
           <!-- Outline button -->
@@ -50,7 +48,7 @@
                    hover:bg-accent transition"
             (click)="scrollToSection('contact')"
           >
-            Get in Touch
+            {{ 'ROOT.APP.ORGANISMS.HERO_ORGANISM.BUTTONS.GET_IN_TOUCH' | translate }}
           </button>
         </div>
       </div>
@@ -59,8 +57,8 @@
       <div class="relative">
         <div class="relative rounded-md overflow-hidden">
           <img
-            src="https://dev-folio-x--juliocsantaman.replit.app/assets/Modern_developer_workspace_hero_56fc0701-DBWUc2TV.png"
-            alt="Developer workspace with modern setup"
+            [src]="'ROOT.APP.ORGANISMS.HERO_ORGANISM.IMAGES.IMG_1.URL' | translate"
+            [alt]="'ROOT.APP.ORGANISMS.HERO_ORGANISM.IMAGES.IMG_1.ALT' | translate"
             class="w-full h-auto object-cover"
           />
         </div>

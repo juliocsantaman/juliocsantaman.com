@@ -5,7 +5,7 @@
       <!-- Title -->
       <div class="space-y-4">
         <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">
-          About Me
+          {{ 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.TITLE' | translate }}
         </h2>
         <div class="h-1 w-20 bg-primary rounded-full"></div>
       </div>
@@ -16,22 +16,15 @@
         <!-- Text -->
         <div class="lg:col-span-2 space-y-6">
           <p class="text-lg text-foreground leading-relaxed">
-            I'm a passionate full-stack developer with a love for creating elegant solutions
-            to complex problems. With over 5 years of experience in web development, I specialize
-            in building modern, responsive applications that deliver exceptional user experiences.
+            {{ 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.PARAGRAPHS.P1' | translate }}
           </p>
 
           <p class="text-base text-muted-foreground leading-relaxed">
-            My journey in software development started with a curiosity about how things work
-            on the web. Today, I work with cutting-edge technologies to build scalable applications
-            that make a difference. I'm always eager to learn new technologies and best practices
-            to stay at the forefront of web development.
+            {{ 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.PARAGRAPHS.P2' | translate }}
           </p>
 
           <p class="text-base text-muted-foreground leading-relaxed">
-            When I'm not coding, you can find me contributing to open-source projects,
-            writing technical articles, or exploring new frameworks and tools that push
-            the boundaries of what's possible on the web.
+            {{ 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.PARAGRAPHS.P3' | translate }}
           </p>
         </div>
 
@@ -73,10 +66,10 @@
 
               <div>
                 <p class="text-sm text-muted-foreground">
-                  {{ stat.label }}
+                  {{ stat.label | translate }}
                 </p>
                 <p class="font-semibold text-foreground" [attr.data-testid]="'text-stat-' + stat.testId">
-                  {{ stat.value }}
+                  {{ stat.value | translate }}
                 </p>
               </div>
             </div>

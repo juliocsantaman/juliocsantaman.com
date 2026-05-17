@@ -20,7 +20,7 @@ export class TechnologiesOrganismComponent {
 
   techCategories: TechCategory[] = [
     {
-      category: 'Frontend',
+      category: 'ROOT.APP.ORGANISMS.TECHNOLOGIES_ORGANISM.CATEGORIES.FRONTEND',
       technologies: [
         { name: 'HTML', icon: 'fa-brands fa-html5', level: 'Expert' },
         { name: 'CSS', icon: 'fa-brands fa-css3-alt', level: 'Expert' },
@@ -31,7 +31,7 @@ export class TechnologiesOrganismComponent {
       ],
     },
     {
-      category: 'Backend',
+      category: 'ROOT.APP.ORGANISMS.TECHNOLOGIES_ORGANISM.CATEGORIES.BACKEND',
       technologies: [
         { name: 'C#', icon: 'fa-solid fa-code', level: 'Advanced' },
         { name: '.NET', icon: 'fa-solid fa-circle-nodes', level: 'Advanced' },
@@ -41,7 +41,7 @@ export class TechnologiesOrganismComponent {
       ],
     },
     {
-      category: 'Tools & Platforms',
+      category: 'ROOT.APP.ORGANISMS.TECHNOLOGIES_ORGANISM.CATEGORIES.TOOLS',
       technologies: [
         { name: 'Git', icon: 'fa-brands fa-git-alt', level: 'Expert' },
         { name: 'GitHub', icon: 'fa-brands fa-github', level: 'Expert' },

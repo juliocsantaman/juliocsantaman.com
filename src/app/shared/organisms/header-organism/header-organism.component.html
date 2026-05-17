@@ -10,7 +10,7 @@
       <!-- LOGO -->
       <button (click)="scrollToSection('home')" class="text-xl font-bold text-foreground dark:text-white"
         data-testid="button-logo">
-        Portfolio
+        {{ 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.LOGO' | translate }}
       </button>
 
       <!-- DESKTOP -->
@@ -18,7 +18,7 @@
         <button *ngFor="let item of navItems" (click)="scrollToSection(item.id)"
           class="text-sm font-medium text-muted-foreground dark:text-muted-foreground hover:text-foreground dark:hover:text-white transition-colors"
           [attr.data-testid]="'link-nav-' + item.id">
-          {{ item.label }}
+          {{ item.label | translate }}
         </button>
 
         <!-- THEME TOGGLE -->
@@ -83,7 +83,7 @@
                hover:text-foreground dark:hover:text-white
                hover:bg-muted dark:hover:bg-muted/60
                rounded-md transition-colors" [attr.data-testid]="'link-mobile-nav-' + item.id">
-        {{ item.label }}
+        {{ item.label | translate }}
       </button>
     </div>
   </div>

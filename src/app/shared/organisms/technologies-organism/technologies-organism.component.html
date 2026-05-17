@@ -5,7 +5,7 @@
       <!-- Header -->
       <div class="space-y-4">
         <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">
-          Technologies & Skills
+          {{ 'ROOT.APP.ORGANISMS.TECHNOLOGIES_ORGANISM.TITLE' | translate }}
         </h2>
         <div class="h-1 w-20 bg-primary rounded-full"></div>
       </div>
@@ -14,7 +14,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div *ngFor="let category of techCategories" class="space-y-4">
           <h3 class="text-xl font-semibold text-foreground">
-            {{ category.category }}
+            {{ category.category | translate }}
           </h3>
 
           <div class="space-y-3">
@@ -40,7 +40,7 @@
 
                 <!-- Level badge -->
                 <span class="text-xs font-semibold px-3 py-1 rounded-full border" [ngClass]="getLevelColor(tech.level)">
-                  {{ tech.level }}
+                  {{ 'ROOT.APP.ORGANISMS.TECHNOLOGIES_ORGANISM.LEVELS.' + tech.level.toUpperCase() | translate }}
                 </span>
 
               </div>

@@ -1,0 +1,150 @@
+{
+  "ROOT": {
+    "APP": {
+      "ATOMS": {},
+      "MOLECULES": {},
+      "ORGANISMS": {
+        "HEADER_ORGANISM": {
+          "LOGO": "Portfolio",
+          "NAV": {
+            "HOME": "Home",
+            "ABOUT": "About",
+            "SKILLS": "Skills",
+            "PROJECTS": "Projects",
+            "CONTACT": "Contact"
+          }
+        },
+        "HERO_ORGANISM": {
+          "TITLE_LINE_1": "Full Stack",
+          "TITLE_LINE_2": "Developer",
+          "DESCRIPTION": "Building modern web applications with cutting-edge technologies. Passionate about creating seamless user experiences and scalable solutions.",
+          "BUTTONS": {
+            "VIEW_PROJECTS": "View Projects",
+            "GET_IN_TOUCH": "Get in Touch"
+          },
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "https://dev-folio-x--juliocsantaman.replit.app/assets/Modern_developer_workspace_hero_56fc0701-DBWUc2TV.png",
+              "ALT": "Developer workspace with modern setup"
+            }
+          }
+        },
+        "ABOUT_ORGANISM": {
+          "TITLE": "About Me",
+          "PARAGRAPHS": {
+            "P1": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With over 5 years of experience in web development, I specialize in building modern, responsive applications that deliver exceptional user experiences.",
+            "P2": "My journey in software development started with a curiosity about how things work on the web. Today, I work with cutting-edge technologies to build scalable applications that make a difference. I'm always eager to learn new technologies and best practices to stay at the forefront of web development.",
+            "P3": "When I'm not coding, you can find me contributing to open-source projects, writing technical articles, or exploring new frameworks and tools that push the boundaries of what's possible on the web."
+          },
+          "STATS": {
+            "EXPERIENCE": {
+              "LABEL": "Experience",
+              "VALUE": "3+ Years"
+            },
+            "CURRENT_ROLE": {
+              "LABEL": "Current Role",
+              "VALUE": "Fullstack Developer"
+            },
+            "LOCATION": {
+              "LABEL": "Location",
+              "VALUE": "Remote"
+            },
+            "PROJECTS": {
+              "LABEL": "Projects",
+              "VALUE": "6+ Completed"
+            }
+          }
+        },
+        "TECHNOLOGIES_ORGANISM": {
+          "TITLE": "Technologies & Skills",
+          "CATEGORIES": {
+            "FRONTEND": "Frontend",
+            "BACKEND": "Backend",
+            "TOOLS": "Tools & Platforms"
+          },
+          "LEVELS": {
+            "EXPERT": "Expert",
+            "ADVANCED": "Advanced",
+            "PROFICIENT": "Proficient"
+          }
+        },
+        "PROJECTS_ORGANISM": {
+          "TITLE": "Featured Projects",
+          "DESCRIPTION": "A selection of projects that showcase my skills and experience in building modern web applications.",
+          "BUTTONS": {
+            "DEMO": "Demo",
+            "CODE": "Code"
+          },
+          "ITEMS": {
+            "STORYTELLING": {
+              "TITLE": "Storytelling",
+              "DESCRIPTION": "Solving problems with creativity and structure. It invites visitors to explore ideas, iterations, and my ongoing journey in technology and design."
+            },
+            "SPORTS": {
+              "TITLE": "Sports",
+              "DESCRIPTION": "Gaming and esports events page featuring matches, teams, highlights, upcoming tournaments, and community engagement."
+            },
+            "ONE_PAGE_NHOA": {
+              "TITLE": "One Page Nhoa",
+              "DESCRIPTION": "Real estate one-page site showcasing Nhoa Condos in Tulum with pricing, amenities, location, and brochure download for potential buyers."
+            },
+            "IMAGE_GALLERY": {
+              "TITLE": "Image Gallery",
+              "DESCRIPTION": "Responsive image gallery showcasing photos with captions in a clean, navigable layout, with smooth transitions and filters."
+            }
+          }
+        },
+        "CONTACT_ORGANISM": {
+          "TITLE": "Get In Touch",
+          "SUBTITLE": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+          "CONTACT_INFO_TITLE": "Contact Information",
+          "FOLLOW_ME_TITLE": "Follow Me",
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "assets/img/email.png",
+              "ALT": "Email icon"
+            }
+          },
+          "RESPONSE_TIME": {
+            "LABEL": "Response Time:",
+            "DESCRIPTION": "I typically respond within 24 hours during weekdays."
+          }
+        },
+        "FOOTER_ORGANISM": {
+          "TEXTS": {
+            "T1": "Cancún, Quintana Roo",
+            "T2": "Copyright © currentYear - Made by Julio Santaman"
+          },
+          "URLS": {
+            "U1": {
+              "URL": "https://www.linkedin.com/in/juliocsantaman/",
+              "TITLE": "Linkedin"
+            },
+            "U2": {
+              "URL": "https://www.facebook.com/juliocsantaman/",
+              "TITLE": "Facebook"
+            },
+            "U3": {
+              "URL": "https://twitter.com/juliocsantaman/",
+              "TITLE": "Twitter"
+            },
+            "U4": {
+              "URL": "https://www.instagram.com/juliocsantaman/",
+              "TITLE": "Instagram"
+            },
+            "U5": {
+              "URL": "https://www.pinterest.com.mx/juliocsantaman/",
+              "TITLE": "Pinterest"
+            },
+            "U6": {
+              "URL": "https://github.com/juliocsantaman",
+              "TITLE": "GitHub"
+            }
+          }
+        }
+      },
+      "TEMPLATES": {},
+      "PAGES": {}
+    }
+  }
+}

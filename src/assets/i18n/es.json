@@ -5,17 +5,115 @@
       "MOLECULES": {},
       "ORGANISMS": {
         "HEADER_ORGANISM": {
-          "TITLE": "Julio Santaman",
-          "TEXTS": {
-            "T1": "Home",
-            "T2": "Contact",
-            "T3": "GitHub"
+          "LOGO": "Portafolio",
+          "NAV": {
+            "HOME": "Inicio",
+            "ABOUT": "Sobre mí",
+            "SKILLS": "Habilidades",
+            "PROJECTS": "Proyectos",
+            "CONTACT": "Contacto"
+          }
+        },
+        "HERO_ORGANISM": {
+          "TITLE_LINE_1": "Desarrollador",
+          "TITLE_LINE_2": "Full Stack",
+          "DESCRIPTION": "Construyo aplicaciones web modernas con tecnologías de vanguardia. Apasionado por crear experiencias de usuario fluidas y soluciones escalables.",
+          "BUTTONS": {
+            "VIEW_PROJECTS": "Ver proyectos",
+            "GET_IN_TOUCH": "Contáctame"
+          },
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "https://dev-folio-x--juliocsantaman.replit.app/assets/Modern_developer_workspace_hero_56fc0701-DBWUc2TV.png",
+              "ALT": "Espacio de trabajo moderno de un desarrollador"
+            }
+          }
+        },
+        "ABOUT_ORGANISM": {
+          "TITLE": "Sobre mí",
+          "PARAGRAPHS": {
+            "P1": "Soy un desarrollador full-stack apasionado por crear soluciones elegantes a problemas complejos. Con más de 5 años de experiencia en desarrollo web, me especializo en construir aplicaciones modernas y responsivas que ofrecen experiencias de usuario excepcionales.",
+            "P2": "Mi trayectoria en el desarrollo de software comenzó con la curiosidad por entender cómo funcionan las cosas en la web. Hoy trabajo con tecnologías de vanguardia para construir aplicaciones escalables que marcan la diferencia. Siempre estoy dispuesto a aprender nuevas tecnologías y buenas prácticas para mantenerme a la vanguardia del desarrollo web.",
+            "P3": "Cuando no estoy programando, me puedes encontrar contribuyendo a proyectos de código abierto, escribiendo artículos técnicos o explorando nuevos frameworks y herramientas que amplían las posibilidades de la web."
+          },
+          "STATS": {
+            "EXPERIENCE": {
+              "LABEL": "Experiencia",
+              "VALUE": "3+ años"
+            },
+            "CURRENT_ROLE": {
+              "LABEL": "Rol actual",
+              "VALUE": "Desarrollador Fullstack"
+            },
+            "LOCATION": {
+              "LABEL": "Ubicación",
+              "VALUE": "Remoto"
+            },
+            "PROJECTS": {
+              "LABEL": "Proyectos",
+              "VALUE": "6+ completados"
+            }
+          }
+        },
+        "TECHNOLOGIES_ORGANISM": {
+          "TITLE": "Tecnologías y habilidades",
+          "CATEGORIES": {
+            "FRONTEND": "Frontend",
+            "BACKEND": "Backend",
+            "TOOLS": "Herramientas y plataformas"
+          },
+          "LEVELS": {
+            "EXPERT": "Experto",
+            "ADVANCED": "Avanzado",
+            "PROFICIENT": "Competente"
+          }
+        },
+        "PROJECTS_ORGANISM": {
+          "TITLE": "Proyectos destacados",
+          "DESCRIPTION": "Una selección de proyectos que muestran mis habilidades y experiencia construyendo aplicaciones web modernas.",
+          "BUTTONS": {
+            "DEMO": "Demo",
+            "CODE": "Código"
+          },
+          "ITEMS": {
+            "STORYTELLING": {
+              "TITLE": "Storytelling",
+              "DESCRIPTION": "Resolviendo problemas con creatividad y estructura. Invita a los visitantes a explorar ideas, iteraciones y mi recorrido continuo en tecnología y diseño."
+            },
+            "SPORTS": {
+              "TITLE": "Sports",
+              "DESCRIPTION": "Página de eventos de gaming y esports con partidos, equipos, highlights, próximos torneos e interacción con la comunidad."
+            },
+            "ONE_PAGE_NHOA": {
+              "TITLE": "One Page Nhoa",
+              "DESCRIPTION": "Sitio inmobiliario de una sola página que muestra Nhoa Condos en Tulum con precios, amenidades, ubicación y descarga de brochure para potenciales compradores."
+            },
+            "IMAGE_GALLERY": {
+              "TITLE": "Image Gallery",
+              "DESCRIPTION": "Galería de imágenes responsiva que muestra fotos con descripciones en un diseño limpio y navegable, con transiciones suaves y filtros."
+            }
+          }
+        },
+        "CONTACT_ORGANISM": {
+          "TITLE": "Ponte en contacto",
+          "SUBTITLE": "Siempre estoy abierto a conversar sobre nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión.",
+          "CONTACT_INFO_TITLE": "Información de contacto",
+          "FOLLOW_ME_TITLE": "Sígueme",
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "assets/img/email.png",
+              "ALT": "Ícono de correo electrónico"
+            }
+          },
+          "RESPONSE_TIME": {
+            "LABEL": "Tiempo de respuesta:",
+            "DESCRIPTION": "Normalmente respondo en menos de 24 horas durante días hábiles."
           }
         },
         "FOOTER_ORGANISM": {
           "TEXTS": {
             "T1": "Cancún, Quintana Roo",
-            "T2": "Copyright © currentYear - Made by Julio Santaman"
+            "T2": "Copyright © currentYear - Hecho por Julio Santaman"
           },
           "URLS": {
             "U1": {
@@ -45,66 +143,7 @@
           }
         }
       },
-      "TEMPLATES": {
-        "HOME_TEMPLATE": {
-          "IMAGES": {
-            "IMG_1": {
-              "URL": "./assets/img/juliocsantaman.jpg",
-              "ALT": "Julio Santaman",
-              "TITLE": "Julio Santaman"
-            }
-          },
-          "EDUCATION": {
-            "TEXTS": {
-              "T1": "Education",
-              "T2": "TecMilenio University Campus Cancún - Software Development Engineering (2018 - 2022)."
-            }
-          },
-          "TECHNICAL_SKILLS": {
-            "TEXTS": {
-              "T1": "Technical Skills",
-              "T2": "Web Development",
-              "T3": "HTML.",
-              "T4": "CSS.",
-              "T5": "JavaScript.",
-              "T6": "Nodejs.",
-              "T7": "SQL.",
-              "T8": "Git (version control).",
-              "T9": "GitHub.",
-              "T10": "Frameworks",
-              "T11": "Bootstrap.",
-              "T12": "Angular.",
-              "T13": "C#."
-            }
-          },
-          "WORK_EXPERIENCE": {
-            "TEXTS": {
-              "T1": "Work Experience",
-              "T2": "Diplus",
-              "T3": "Working remotely as a Web developer using HTML, CSS, Bootstrap, JavaScript, and Git (Github) technologies.",
-              "T4": "TECNOLÓGICO DE MONTERREY",
-              "T5": "Working remotely as a FrontEnd Developer using HTML, CSS, Bootstrap, JavaScript, Angular and Git (GitHub) technologies. Developing tools for parents, students and collaborators on the web site mitec."
-            }
-          },
-          "LANGUAGES": {
-            "TEXTS": {
-              "T1": "Languages",
-              "T2": "Spanish (native).",
-              "T3": "English (intermediate)."
-            }
-          }
-        },
-        "CONTACT_TEMPLATE": {
-          "IMAGES": {
-            "IMG_1": {
-              "URL": "./assets/img/email.png"
-            }
-          },
-          "TEXTS": {
-            "T1": "Email:"
-          }
-        }
-      },
+      "TEMPLATES": {},
       "PAGES": {}
     }
   }

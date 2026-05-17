@@ -34,11 +34,11 @@ export class HeaderOrganismComponent implements OnInit {
   isDark = false;
 
   navItems = [
-    { label: 'Home', id: 'home' },
-    { label: 'About', id: 'about' },
-    { label: 'Skills', id: 'technologies' },
-    { label: 'Projects', id: 'projects' },
-    { label: 'Contact', id: 'contact' },
+    { label: 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.NAV.HOME', id: 'home' },
+    { label: 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.NAV.ABOUT', id: 'about' },
+    { label: 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.NAV.SKILLS', id: 'technologies' },
+    { label: 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.NAV.PROJECTS', id: 'projects' },
+    { label: 'ROOT.APP.ORGANISMS.HEADER_ORGANISM.NAV.CONTACT', id: 'contact' },
   ];
 
   @HostListener('window:scroll')

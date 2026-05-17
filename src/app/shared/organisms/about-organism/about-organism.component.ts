@@ -16,26 +16,26 @@ export class AboutOrganismComponent {
   stats: Stat[] = [
     {
       icon: 'calendar',
-      label: 'Experience',
-      value: '3+ Years',
+      label: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.EXPERIENCE.LABEL',
+      value: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.EXPERIENCE.VALUE',
       testId: 'experience',
     },
     {
       icon: 'briefcase',
-      label: 'Current Role',
-      value: 'Fullstack Developer',
+      label: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.CURRENT_ROLE.LABEL',
+      value: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.CURRENT_ROLE.VALUE',
       testId: 'current-role',
     },
     {
       icon: 'map-pin',
-      label: 'Location',
-      value: 'Remote',
+      label: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.LOCATION.LABEL',
+      value: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.LOCATION.VALUE',
       testId: 'location',
     },
     {
       icon: 'code',
-      label: 'Projects',
-      value: '6+ Completed',
+      label: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.PROJECTS.LABEL',
+      value: 'ROOT.APP.ORGANISMS.ABOUT_ORGANISM.STATS.PROJECTS.VALUE',
       testId: 'projects',
     },
   ];
