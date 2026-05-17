@@ -1,0 +1,150 @@
+{
+  "ROOT": {
+    "APP": {
+      "ATOMS": {},
+      "MOLECULES": {},
+      "ORGANISMS": {
+        "HEADER_ORGANISM": {
+          "LOGO": "ポートフォリオ",
+          "NAV": {
+            "HOME": "ホーム",
+            "ABOUT": "自己紹介",
+            "SKILLS": "スキル",
+            "PROJECTS": "プロジェクト",
+            "CONTACT": "お問い合わせ"
+          }
+        },
+        "HERO_ORGANISM": {
+          "TITLE_LINE_1": "フルスタック",
+          "TITLE_LINE_2": "エンジニア",
+          "DESCRIPTION": "最先端の技術でモダンなウェブアプリケーションを構築しています。シームレスなユーザー体験とスケーラブルなソリューションを生み出すことに情熱を注いでいます。",
+          "BUTTONS": {
+            "VIEW_PROJECTS": "プロジェクトを見る",
+            "GET_IN_TOUCH": "お問い合わせ"
+          },
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "assets/img/hero-tech.jpg",
+              "ALT": "暗い背景に流れるマトリックス風の緑色のコード"
+            }
+          }
+        },
+        "ABOUT_ORGANISM": {
+          "TITLE": "自己紹介",
+          "PARAGRAPHS": {
+            "P1": "私は複雑な問題に対してエレガントなソリューションを生み出すことに情熱を持つフルスタック開発者です。ウェブ開発で5年以上の経験を持ち、優れたユーザー体験を提供するモダンでレスポンシブなアプリケーションの構築を専門としています。",
+            "P2": "ソフトウェア開発の道のりは、ウェブの仕組みに対する好奇心から始まりました。現在は最先端の技術を活用して、価値のあるスケーラブルなアプリケーションを構築しています。常に新しい技術やベストプラクティスを学び、ウェブ開発の最前線に立ち続けることを心がけています。",
+            "P3": "コーディングをしていないときは、オープンソースプロジェクトへの貢献や、技術記事の執筆、ウェブの可能性を広げる新しいフレームワークやツールの探求に取り組んでいます。"
+          },
+          "STATS": {
+            "EXPERIENCE": {
+              "LABEL": "経験",
+              "VALUE": "3年以上"
+            },
+            "CURRENT_ROLE": {
+              "LABEL": "現在の役割",
+              "VALUE": "フルスタック開発者"
+            },
+            "LOCATION": {
+              "LABEL": "勤務地",
+              "VALUE": "リモート"
+            },
+            "PROJECTS": {
+              "LABEL": "プロジェクト",
+              "VALUE": "6件以上完了"
+            }
+          }
+        },
+        "TECHNOLOGIES_ORGANISM": {
+          "TITLE": "テクノロジーとスキル",
+          "CATEGORIES": {
+            "FRONTEND": "フロントエンド",
+            "BACKEND": "バックエンド",
+            "TOOLS": "ツールとプラットフォーム"
+          },
+          "LEVELS": {
+            "EXPERT": "エキスパート",
+            "ADVANCED": "上級",
+            "PROFICIENT": "中級"
+          }
+        },
+        "PROJECTS_ORGANISM": {
+          "TITLE": "注目プロジェクト",
+          "DESCRIPTION": "モダンなウェブアプリケーション開発における私のスキルと経験を示すプロジェクトの一部です。",
+          "BUTTONS": {
+            "DEMO": "デモ",
+            "CODE": "コード"
+          },
+          "ITEMS": {
+            "STORYTELLING": {
+              "TITLE": "Storytelling",
+              "DESCRIPTION": "創造性と構造で問題を解決します。訪問者をアイデアやイテレーション、そしてテクノロジーとデザインに関する私の継続的な旅へと誘います。"
+            },
+            "SPORTS": {
+              "TITLE": "Sports",
+              "DESCRIPTION": "試合、チーム、ハイライト、今後のトーナメント、コミュニティ参加情報を備えたゲーミング・eスポーツイベントのページです。"
+            },
+            "ONE_PAGE_NHOA": {
+              "TITLE": "One Page Nhoa",
+              "DESCRIPTION": "トゥルムのNhoa Condosを紹介する不動産用ワンページサイトで、価格、設備、立地、そして購入希望者向けのパンフレットダウンロードを掲載しています。"
+            },
+            "IMAGE_GALLERY": {
+              "TITLE": "Image Gallery",
+              "DESCRIPTION": "クリーンで操作しやすいレイアウトでキャプション付きの写真を表示するレスポンシブな画像ギャラリーで、スムーズなトランジションとフィルターを備えています。"
+            }
+          }
+        },
+        "CONTACT_ORGANISM": {
+          "TITLE": "お問い合わせ",
+          "SUBTITLE": "新しいプロジェクト、クリエイティブなアイデア、またはあなたのビジョンの一員となる機会について、いつでもお話を伺います。",
+          "CONTACT_INFO_TITLE": "連絡先情報",
+          "FOLLOW_ME_TITLE": "フォローする",
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "assets/img/email.png",
+              "ALT": "メールアイコン"
+            }
+          },
+          "RESPONSE_TIME": {
+            "LABEL": "返信時間:",
+            "DESCRIPTION": "通常、平日は24時間以内に返信いたします。"
+          }
+        },
+        "FOOTER_ORGANISM": {
+          "TEXTS": {
+            "T1": "カンクン、キンタナ・ロー",
+            "T2": "Copyright © currentYear - Made by Julio Santaman"
+          },
+          "URLS": {
+            "U1": {
+              "URL": "https://www.linkedin.com/in/juliocsantaman/",
+              "TITLE": "Linkedin"
+            },
+            "U2": {
+              "URL": "https://www.facebook.com/juliocsantaman/",
+              "TITLE": "Facebook"
+            },
+            "U3": {
+              "URL": "https://twitter.com/juliocsantaman/",
+              "TITLE": "Twitter"
+            },
+            "U4": {
+              "URL": "https://www.instagram.com/juliocsantaman/",
+              "TITLE": "Instagram"
+            },
+            "U5": {
+              "URL": "https://www.pinterest.com.mx/juliocsantaman/",
+              "TITLE": "Pinterest"
+            },
+            "U6": {
+              "URL": "https://github.com/juliocsantaman",
+              "TITLE": "GitHub"
+            }
+          }
+        }
+      },
+      "TEMPLATES": {},
+      "PAGES": {}
+    }
+  }
+}

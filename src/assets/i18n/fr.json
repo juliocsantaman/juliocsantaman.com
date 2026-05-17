@@ -1,0 +1,150 @@
+{
+  "ROOT": {
+    "APP": {
+      "ATOMS": {},
+      "MOLECULES": {},
+      "ORGANISMS": {
+        "HEADER_ORGANISM": {
+          "LOGO": "Portfolio",
+          "NAV": {
+            "HOME": "Accueil",
+            "ABOUT": "À propos",
+            "SKILLS": "Compétences",
+            "PROJECTS": "Projets",
+            "CONTACT": "Contact"
+          }
+        },
+        "HERO_ORGANISM": {
+          "TITLE_LINE_1": "Développeur",
+          "TITLE_LINE_2": "Full Stack",
+          "DESCRIPTION": "Je conçois des applications web modernes avec des technologies de pointe. Passionné par la création d'expériences utilisateur fluides et de solutions évolutives.",
+          "BUTTONS": {
+            "VIEW_PROJECTS": "Voir les projets",
+            "GET_IN_TOUCH": "Me contacter"
+          },
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "assets/img/hero-tech.jpg",
+              "ALT": "Code vert de style Matrix défilant sur un fond sombre"
+            }
+          }
+        },
+        "ABOUT_ORGANISM": {
+          "TITLE": "À propos de moi",
+          "PARAGRAPHS": {
+            "P1": "Je suis un développeur full-stack passionné par la création de solutions élégantes à des problèmes complexes. Avec plus de 5 ans d'expérience en développement web, je me spécialise dans la création d'applications modernes et responsives qui offrent des expériences utilisateur exceptionnelles.",
+            "P2": "Mon parcours dans le développement logiciel a commencé par la curiosité de comprendre le fonctionnement du web. Aujourd'hui, j'utilise des technologies de pointe pour construire des applications évolutives qui font la différence. Je suis toujours désireux d'apprendre de nouvelles technologies et bonnes pratiques pour rester à la pointe du développement web.",
+            "P3": "Quand je ne code pas, vous pouvez me trouver en train de contribuer à des projets open-source, d'écrire des articles techniques ou d'explorer de nouveaux frameworks et outils qui repoussent les limites du web."
+          },
+          "STATS": {
+            "EXPERIENCE": {
+              "LABEL": "Expérience",
+              "VALUE": "3+ ans"
+            },
+            "CURRENT_ROLE": {
+              "LABEL": "Poste actuel",
+              "VALUE": "Développeur Fullstack"
+            },
+            "LOCATION": {
+              "LABEL": "Localisation",
+              "VALUE": "Télétravail"
+            },
+            "PROJECTS": {
+              "LABEL": "Projets",
+              "VALUE": "6+ terminés"
+            }
+          }
+        },
+        "TECHNOLOGIES_ORGANISM": {
+          "TITLE": "Technologies et compétences",
+          "CATEGORIES": {
+            "FRONTEND": "Frontend",
+            "BACKEND": "Backend",
+            "TOOLS": "Outils et plateformes"
+          },
+          "LEVELS": {
+            "EXPERT": "Expert",
+            "ADVANCED": "Avancé",
+            "PROFICIENT": "Confirmé"
+          }
+        },
+        "PROJECTS_ORGANISM": {
+          "TITLE": "Projets phares",
+          "DESCRIPTION": "Une sélection de projets qui mettent en valeur mes compétences et mon expérience dans la création d'applications web modernes.",
+          "BUTTONS": {
+            "DEMO": "Démo",
+            "CODE": "Code"
+          },
+          "ITEMS": {
+            "STORYTELLING": {
+              "TITLE": "Storytelling",
+              "DESCRIPTION": "Résoudre des problèmes avec créativité et structure. Le site invite les visiteurs à explorer des idées, des itérations et mon parcours continu dans la technologie et le design."
+            },
+            "SPORTS": {
+              "TITLE": "Sports",
+              "DESCRIPTION": "Page d'événements gaming et esports proposant matchs, équipes, temps forts, tournois à venir et engagement de la communauté."
+            },
+            "ONE_PAGE_NHOA": {
+              "TITLE": "One Page Nhoa",
+              "DESCRIPTION": "Site immobilier d'une seule page présentant les Nhoa Condos à Tulum avec prix, équipements, emplacement et téléchargement de brochure pour les acheteurs potentiels."
+            },
+            "IMAGE_GALLERY": {
+              "TITLE": "Image Gallery",
+              "DESCRIPTION": "Galerie d'images responsive présentant des photos avec légendes dans une mise en page épurée et navigable, avec des transitions fluides et des filtres."
+            }
+          }
+        },
+        "CONTACT_ORGANISM": {
+          "TITLE": "Entrons en contact",
+          "SUBTITLE": "Je suis toujours ouvert à discuter de nouveaux projets, d'idées créatives ou d'opportunités pour participer à votre vision.",
+          "CONTACT_INFO_TITLE": "Informations de contact",
+          "FOLLOW_ME_TITLE": "Suivez-moi",
+          "IMAGES": {
+            "IMG_1": {
+              "URL": "assets/img/email.png",
+              "ALT": "Icône d'e-mail"
+            }
+          },
+          "RESPONSE_TIME": {
+            "LABEL": "Temps de réponse :",
+            "DESCRIPTION": "Je réponds généralement sous 24 heures les jours ouvrés."
+          }
+        },
+        "FOOTER_ORGANISM": {
+          "TEXTS": {
+            "T1": "Cancún, Quintana Roo",
+            "T2": "Copyright © currentYear - Réalisé par Julio Santaman"
+          },
+          "URLS": {
+            "U1": {
+              "URL": "https://www.linkedin.com/in/juliocsantaman/",
+              "TITLE": "Linkedin"
+            },
+            "U2": {
+              "URL": "https://www.facebook.com/juliocsantaman/",
+              "TITLE": "Facebook"
+            },
+            "U3": {
+              "URL": "https://twitter.com/juliocsantaman/",
+              "TITLE": "Twitter"
+            },
+            "U4": {
+              "URL": "https://www.instagram.com/juliocsantaman/",
+              "TITLE": "Instagram"
+            },
+            "U5": {
+              "URL": "https://www.pinterest.com.mx/juliocsantaman/",
+              "TITLE": "Pinterest"
+            },
+            "U6": {
+              "URL": "https://github.com/juliocsantaman",
+              "TITLE": "GitHub"
+            }
+          }
+        }
+      },
+      "TEMPLATES": {},
+      "PAGES": {}
+    }
+  }
+}

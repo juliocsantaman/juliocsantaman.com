@@ -21,6 +21,8 @@ export class HeaderOrganismComponent implements OnInit {
   languages: LanguageOption[] = [
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Español' },
+    { code: 'fr', label: 'Français' },
+    { code: 'ja', label: '日本語' },
   ];
 
   constructor
