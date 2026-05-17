@@ -32,14 +32,14 @@
         "ABOUT_ORGANISM": {
           "TITLE": "À propos de moi",
           "PARAGRAPHS": {
-            "P1": "Je suis un développeur full-stack passionné par la création de solutions élégantes à des problèmes complexes. Avec plus de 5 ans d'expérience en développement web, je me spécialise dans la création d'applications modernes et responsives qui offrent des expériences utilisateur exceptionnelles.",
+            "P1": "Je suis un développeur full-stack passionné par la création de solutions élégantes à des problèmes complexes. Avec plus de 4 ans d'expérience en développement web, je me spécialise dans la création d'applications modernes et responsives qui offrent des expériences utilisateur exceptionnelles.",
             "P2": "Mon parcours dans le développement logiciel a commencé par la curiosité de comprendre le fonctionnement du web. Aujourd'hui, j'utilise des technologies de pointe pour construire des applications évolutives qui font la différence. Je suis toujours désireux d'apprendre de nouvelles technologies et bonnes pratiques pour rester à la pointe du développement web.",
             "P3": "Quand je ne code pas, vous pouvez me trouver en train de contribuer à des projets open-source, d'écrire des articles techniques ou d'explorer de nouveaux frameworks et outils qui repoussent les limites du web."
           },
           "STATS": {
             "EXPERIENCE": {
               "LABEL": "Expérience",
-              "VALUE": "3+ ans"
+              "VALUE": "4+ ans"
             },
             "CURRENT_ROLE": {
               "LABEL": "Poste actuel",
@@ -51,7 +51,7 @@
             },
             "PROJECTS": {
               "LABEL": "Projets",
-              "VALUE": "6+ terminés"
+              "VALUE": "9+ terminés"
             }
           }
         },

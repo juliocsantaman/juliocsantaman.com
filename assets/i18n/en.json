@@ -32,14 +32,14 @@
         "ABOUT_ORGANISM": {
           "TITLE": "About Me",
           "PARAGRAPHS": {
-            "P1": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With over 5 years of experience in web development, I specialize in building modern, responsive applications that deliver exceptional user experiences.",
+            "P1": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With over 4 years of experience in web development, I specialize in building modern, responsive applications that deliver exceptional user experiences.",
             "P2": "My journey in software development started with a curiosity about how things work on the web. Today, I work with cutting-edge technologies to build scalable applications that make a difference. I'm always eager to learn new technologies and best practices to stay at the forefront of web development.",
             "P3": "When I'm not coding, you can find me contributing to open-source projects, writing technical articles, or exploring new frameworks and tools that push the boundaries of what's possible on the web."
           },
           "STATS": {
             "EXPERIENCE": {
               "LABEL": "Experience",
-              "VALUE": "3+ Years"
+              "VALUE": "4+ Years"
             },
             "CURRENT_ROLE": {
               "LABEL": "Current Role",
@@ -51,7 +51,7 @@
             },
             "PROJECTS": {
               "LABEL": "Projects",
-              "VALUE": "6+ Completed"
+              "VALUE": "9+ Completed"
             }
           }
         },
