@@ -14,7 +14,7 @@ export class OurTranslateService {
     }
 
   initTranslate() {
-    const defaultLang = 'es';
+    const defaultLang = 'en';
     this.translate.addLangs(['es', 'en']);
     this.translate.setDefaultLang(defaultLang);
     this.translate.use(defaultLang);

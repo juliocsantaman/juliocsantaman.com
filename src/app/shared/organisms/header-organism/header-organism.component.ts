@@ -1,5 +1,11 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 import { IsActiveMatchOptions, Router, UrlTree } from '@angular/router';
+import { OurTranslateService } from 'src/app/core/services/our-translate-service/our-translate.service';
+
+interface LanguageOption {
+  code: string;
+  label: string;
+}
 
 @Component({
   selector: 'app-header-organism',
@@ -8,15 +14,42 @@ import { IsActiveMatchOptions, Router, UrlTree } from '@angular/router';
 })
 export class HeaderOrganismComponent implements OnInit {
 
+  currentLang: string = 'en';
+  isLangMenuOpen = false;
+  isLangMenuMobileOpen = false;
+
+  languages: LanguageOption[] = [
+    { code: 'en', label: 'English' },
+    { code: 'es', label: 'Español' },
+  ];
+
   constructor
     (
-      private router: Router
+      private router: Router,
+      private ourTranslateService: OurTranslateService,
+      private elementRef: ElementRef
     ) {
 
   }
 
   ngOnInit(): void {
     this.isDark = document.documentElement.classList.contains('dark');
+    this.currentLang = this.ourTranslateService.translate.currentLang || 'en';
+  }
+
+  selectLang(code: string): void {
+    this.currentLang = code;
+    this.ourTranslateService.changeLang(code);
+    this.isLangMenuOpen = false;
+    this.isLangMenuMobileOpen = false;
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent): void {
+    if (!this.elementRef.nativeElement.contains(event.target)) {
+      this.isLangMenuOpen = false;
+      this.isLangMenuMobileOpen = false;
+    }
   }
 
   isLinkActive(route: string): boolean {
